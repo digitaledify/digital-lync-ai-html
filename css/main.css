@@ -82,11 +82,15 @@ body{font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe
 .header{box-shadow: 0 0 10px #eee;padding: 1rem 0;}
 
 .trusted{ padding: 50px 0;}
-.trusted h5{ margin: 0 0 30px;font-size: .75rem;
+.trusted h5{
+  margin: 0 0 10px;
+  font-size: 1.5rem;
   letter-spacing: .2rem;
-  font-weight: 800;  text-align: center;
+  font-weight: 800;
+  text-align: center;
   padding-left: 0.2rem;
-  color: #555;}
+  color: #555;
+  }
 .flex{ display: flex;}
 ul{ list-style-type: none; padding: 0; margin: 0;}
 .align-items-center{ align-items: center;}
@@ -316,7 +320,7 @@ img{ max-width: 100%;}
   bottom: 100px;
 }
 .getjobcol{ padding: 70px 0; position: relative;}
-.globimg{ position: absolute; right: 0; top: 50px;}
+.globimg{position: absolute;right: 0;top: auto;width: 90%;opacity: 0.3;bottom: 10%;}
 
 
 
@@ -1686,4 +1690,86 @@ a.btn_caller {
   opacity: .8;
 }
 a:focus, button:focus{ outline: none !important;}
+.subpara{text-align: center;
+  font-size: 1rem;
+  margin: 0 0 30px;}
 
+
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .collapse:not(.show) {
+      display: none;
+  }
+  .navbar-toggle {
+    display: block;
+    border: none;  background: none;
+}
+.navbar-header{ position: absolute; top: 20px; right: 20px;}
+.circlebgvoilet1, .circlebgvoilet {
+  width: 100%;}
+  .circlebg {
+    width: 100%;
+    height: auto;
+    }
+    .herosection h1{ font-size: 50px;}.herosection h4{ font-size: 1.5rem;}
+    .herosection {
+      padding: 50px 20px;}.herosection p {
+        font-size: 0.95rem;}
+        .herosection p br{ display: none;}.btn{padding: 5px 10px;font-size: .775rem;}
+        .icon-bar{ display: block; width: 25px; margin: 5px 0; height: 3px; background-color: #000;}
+        .header .col-md-9{ position: unset;}
+        .navbar { 
+          position: unset;
+      }
+      .trusted ul li {
+        padding: 0 10px 10px;
+    }.trusted h5{font-size: 1.2rem;
+      letter-spacing: .1rem;}
+      .courselbox span {
+        padding-right: 10px;
+        font-size: 0.9rem;
+    }.courselbox span i{ margin-right: 2px;}
+    .sidebg {
+      padding: 20px; margin-bottom: 20px;}.buildprow:after{left: 20px;}
+      .padr40 {
+        padding-right: 0; padding-left: 20px;
+    }.padl40 {
+      padding-left: 30px;
+  }.cntleftree {
+    margin-top: 0;
+}.awsebox{ margin-bottom: 60px;}.awsengeers {
+  padding: 0px 0 0;}.upcoming {
+    padding: 0px 0 50px;
+}.upbox{ margin:0 10px 30px;}.upcoming h4{ margin: 0 0 30px; text-align: center;}
+.whydigital h4 {
+  font-size: 2rem;}.lbgcol {
+    padding: 50px 0;
+    text-align: center;
+}.lbgcol h3 {
+  font-size: 2rem;}
+ footer .grid {
+    display: block;
+    text-align: center;
+}.flex { 
+  width: 100%;
+  padding: 0 0 20px;
+}.outlin.twobt:after {
+  width: 80%;
+}.projectscourses {
+  padding: 0;}.navbar-collapse{position: absolute;
+    background: #fff;
+    top: 84px; z-index: 9; left: 0; right: 0;
+    padding: 0 30px 20px; 
+    text-align: center;}.navbar-nav {
+      display: block;}.navbar-nav > li {
+        margin-left: 0;
+        padding: 0 0 5px;
+        text-align: center;
+    }
+  }
+  
+  
+
+
+
+  
