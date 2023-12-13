@@ -987,7 +987,7 @@ $('.a, .b, .c').each(function (i, elem) {
 $this.queue(function (n) {
 $(elem).addClass('selected');
 n();
-}).delay(2000).queue(function (n) {
+}).delay(1000).queue(function (n) {
 $(elem).removeClass('selected');
 n();
 });

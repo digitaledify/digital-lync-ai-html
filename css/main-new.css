@@ -1467,6 +1467,8 @@ nav .wrapper{
 .b.selected{background-image: linear-gradient(129deg, rgb(0, 255, 0) 0%, rgb(0, 255, 128) 100%);}
 
 .c.selected{background-image: linear-gradient(129deg, rgb(0, 0, 255) 0%, rgb(128, 0, 255) 100%);}
+
+
  
 .getlink:hover{background-image: linear-gradient(129deg, hsl(0, 100%, 50%) 0%, hsl(30, 100%, 50%) 100%);}
  
@@ -1645,7 +1647,7 @@ a:focus, button:focus{ outline: none !important;}
 .labelauthor span{ padding-left: 20px; padding-top: 10px;}
 .social_icons a:hover{color: #ffb400;}
 
-
+.selected{ transition: all 0.3s ease;}
 
 
 
