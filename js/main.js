@@ -1,4 +1,60 @@
- (function () {
+$(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                loop: true,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  600: {
+                    items: 2
+                  },
+                  1000: {
+                    items: 3
+                  }
+                }
+              })
+            });
+   <!--   -->	  
+    $(document).ready(function(){
+        // Add minus icon for collapse element which is open by default
+        $(".faq_col .collapse.show").each(function(){
+        	$(this).prev(".card-header").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-up");
+			$(this).prev(".card-header").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-up");
+        });
+        
+        // Toggle plus minus icon on show hide of collapse element
+        $(".faq_col .collapse").on('show.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-up");
+        }).on('hide.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-angle-up").addClass("fa-angle-down");
+        });
+    });
+	
+	<!--     -->
+	
+	 $(document).ready(function(){
+        // Add minus icon for collapse element which is open by default
+        $(".cource_col .collapse.show").each(function(){
+        	$(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+			$(this).prev(".card-header").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-up");
+        });
+        
+        // Toggle plus minus icon on show hide of collapse element
+        $(".cource_col .collapse").on('show.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+			$(this).prev(".card-header").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-up");
+        }).on('hide.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+			$(this).prev(".card-header").find(".fa").removeClass("fa-angle-up").addClass("fa-angle-down");
+        });
+    });
+	 
+	 <!--       -->
+	 
+	    (function () {
   var Util,
   __bind = function (fn, me) {return function () {return fn.apply(me, arguments);};};
 
@@ -191,9 +247,12 @@ wow = new WOW(
 
 
 wow.init();
-		
-	  
-		$(window).scroll(function(){
+
+
+
+<!--      -->
+
+$(window).scroll(function(){
     if ($(window).scrollTop() >= 300) {
         $('header').addClass('fixed-header'); 
     }
@@ -202,24 +261,41 @@ wow.init();
     }
 });
 
-$("a.scroll[href^='#']").click(function(e) {
-	e.preventDefault();
-	
-	var position = $($(this).attr("href")).offset().top;
-
-	$("body, html").animate({
-		scrollTop: position
-	} /* speed */ );
+ $(".see-more a").click(function(){
+  $(".more_live_projects").show();
+  $(".see-more").hide();
 });
 
-$("button").click(function(){
-  $("p").removeClass("intro");
-});  
-    
-    $(".close_call_btn_caller").click(function(){
+$(".close_call_btn_caller").click(function(){
   $(".modal_caller").removeClass('active');
 });
 $(".btn_caller").click(function(){
   $(".modal_caller").addClass('active');
 });
+
+<!--   -->
+
+$('body').on('hidden.bs.modal', '.modal', function () {
+$('video').trigger('pause');
+});
+
+$('body').on('.modal', '.item', function () {
+$('video').trigger('pause');
+});
+
+$("#digitalmarket_video").on('hidden.bs.modal', function (e) {
+    $("#digitalmarket_video iframe").attr("src", $("#digitalmarket_video iframe").attr("src"));
+});
  
+
+///  DROPDOWN MENU   ////
+$(".nav li").hover(function() {
+  var isHovered = $(this).is(":hover");
+  if (isHovered) {
+    $(this).children(".submenu").stop().slideDown(300);
+  } else {
+    $(this).children(".submenu").stop().slideUp(300);
+  }
+});
+
+///  DROPDOWN MENU   ////
