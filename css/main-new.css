@@ -133,11 +133,7 @@ ul{ list-style-type: none; padding: 0; margin: 0;}
   padding-left: 0.2rem;
   color: #555;
 }
-.ltext {
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -475,9 +471,7 @@ nav .wrapper{
   transition: all 0.3s ease;
   display: block;
 }
-.nav-links li a:hover{
-  /* background: #3A3B3C; */
-}
+ 
 .nav-links .mobile-item{
   display: none;
 }
@@ -1649,16 +1643,32 @@ a:focus, button:focus{ outline: none !important;}
 
 .selected{ transition: all 0.3s ease;}
 
+.padt30{ padding-top:30px;}
+.pat0{ padding-top: 0 !important;}
 
-
-
-
-
-
-
-
-
-
+.vlineblu{
+  background: linear-gradient(#fff,#0186ee);
+}
+.blulinear, .bluttextlinear{
+  background: linear-gradient(90deg,#0186ee,#01d4db);
+}
+.ltext {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.keyfeat{ padding:80px 0 0;;}
+.keyfeat h4{
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 700;
+  margin: 0 0 40px;
+  }
+.febox{padding: 30px;border-radius: 6px;border: 1px solid #eee;box-shadow: 0 0 15px #eeeeee85;margin: 0 0 30px;min-height: 230px;}
+.febox h5{ display: flex; align-items: center; margin: 0 0 20px;}
+.febox h5 span{ padding-left: 10px; font-weight: 600;}
+.febox p{ font-size: 14px;}
 
   @media (min-width: 320px) and (max-width: 767px) {
     .collapse:not(.show) {
