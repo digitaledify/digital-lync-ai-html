@@ -1679,6 +1679,7 @@ footer.footerwhite .social_icons ul li a:hover{ color: #0078fe;}
 footer.footerwhite .social_icons ul li {
   padding: 0 20px 0 0;
 }
+.labelskill{ width: 54%;}
   @media (min-width: 320px) and (max-width: 767px) {
     .collapse:not(.show) {
       display: none;
