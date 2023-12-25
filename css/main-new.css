@@ -1680,6 +1680,14 @@ footer.footerwhite .social_icons ul li {
   padding: 0 20px 0 0;
 }
 .labelskill{ width: 54%;}
+.padl20{ padding-left: 20px;}
+.login_link a{border: 1px solid #898888;
+  padding: 10px 20px !important;
+  border-radius: 30px }
+  .login_link a:hover{ color: #000 !important;}
+  .header .navbar-nav li.get_link{margin-left: 0 !important;}
+
+
   @media (min-width: 320px) and (max-width: 767px) {
     .collapse:not(.show) {
       display: none;
