@@ -1686,8 +1686,11 @@ footer.footerwhite .social_icons ul li {
   border-radius: 30px }
   .login_link a:hover{ color: #000 !important;}
   .header .navbar-nav li.get_link{margin-left: 0 !important;}
-
-
+.cardbg{ display: block;transform: scale(1);}
+.cardbg:hover{ color: #000;box-shadow: 0 0 55px #ccccccf5; transform: scale(1.08);}
+.prmenu .submenu {
+  width: 285px;
+}
   @media (min-width: 320px) and (max-width: 767px) {
     .collapse:not(.show) {
       display: none;
