@@ -1704,7 +1704,35 @@ body div .plus-minus{ background: none !important;}
   content: "\f068" !important;
 }
 
+.blogpage{ padding: 150px 0;}
+.blogimg{position: relative;min-height: 300px;border-radius: 10px;padding: 40px;display: flex;color: #fff;align-items: self-end;}
+.f30{ font-size:25px; font-weight: 600; margin: 0 0 30px;}
 
+.blogcnt h5{color: #fff;font-size: 25px;font-weight: 700;margin: 0 0 20px;}
+.blogcnt .bluebg{background-color: #4B6BFB;padding: 5px 10px;display: inline-block;margin: 0 0 10px;border-radius: 30px;}
+.bloginfo{ display: flex;}
+.user{ padding-right: 30px;}
+.mt30{ margin-top: 30px;}
+.radius6{ border-radius: 6px;}
+.vtext{ color: #6941C6; font-weight: 600;}
+.bloglist h6{margin: 0 0 5px;font-size: 20px;font-weight: 600;}
+.tags{ padding: 30px 0 0;}
+.tags span{ padding:5px 15px; border-radius: 30px; margin-right: 20px;}
+.vtag{ background-color: #F9F5FF; color: #6941C6;}
+.rtag{ background-color: #FDF2FA; color: #C11574;}
+.mt50{ margin-top: 50px;}
+.pdt30{ padding-top:30px;}
+.pdt80{ padding-top:80px;}
+.bloglist p{ font-size: 14px;}
+.barrow{ position: relative;}
+.fabicon{position: absolute;
+  right: 0;
+  top: 61px; 
+  font-weight: 100;
+  font-size: 30px;}
+.blogdlist .bluebg{ color: #fff;}
+.blogdlist .blogcnt h5 {
+  color: #222;}
 
 
   @media (min-width: 320px) and (max-width: 767px) {
