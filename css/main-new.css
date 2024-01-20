@@ -1733,6 +1733,52 @@ body div .plus-minus{ background: none !important;}
 .blogdlist .bluebg{ color: #fff;}
 .blogdlist .blogcnt h5 {
   color: #222;}
+.demobanner{ background-image: url(../images/demobg.jpg);
+  padding: 100px;
+  min-height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-top: 106px;}
+.democntbox{
+  background: #fafafa;
+  margin: 28px 186px;
+  padding: 50px;
+  }
+.dlist{display: flex;align-items: center;justify-content: space-between;}
+.dlist span strong{ display: block;} 
+.dlist li{display: flex;background: #fff;padding: 10px 15px;border: 1px solid #ddd;border-radius: 8px;}
+.dlist span{ padding: 0 0 0 10px;}
+.demobanner h1{text-align: center;font-weight: 500;font-size: 45px;margin: 0 0 30px;}
+.demobanner .btnrow{ padding: 30px 0 0;}
+.demobanner .btnrow .btn{border-radius: 30px;padding: 15px 30px;}
+.demobanner .btnrow .btn.bgwhite{border: 1px solid #1717174a!important;}
+.demobanner .btnrow .btn.bgwhite:after{ display: none;}
+.demobanner .btnrow .btn.bgwhite:before{ display: none;}
+.demobanner .btnrow .btn.bgwhite:hover{background:  #1717174a!important;}
+.fullstackcnt{ padding: 100px 0;}
+.hedfour{ position: relative; font-weight: 600; margin: 0 0 30px; font-size: 30px;}
+.fullstackcnt .box{padding: 30px;background-color: #fff;box-shadow: 0 0 20px #cccccca8;border-radius: 10px;border: 1px solid #ddd;}
+.fullstackcnt .box li{position: relative;padding: 10px 0;display: flex;align-items: center;}
+.fullstackcnt .box li i{border: 1px solid #ddd;padding: 5px;margin-right: 15px;border-radius: 6px;width: 30px;height: 30px;text-align: center;line-height: 18px;}
+.fullstackcnt .box ul{ padding: 0; margin: 0;}
+.fullstackcnt .box .btnrow{ justify-content: left; padding:30px 0 20px;}
+
+.ourlocations{ padding:70px 0; background-color: #fafafa; text-align:center;}
+.ourlocations h3 {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin: 0 0 20px; text-align: center;
+}
+.ourlocations h5 {
+  font-weight: 600;
+  margin: 0 0 20px;
+  font-size: 18px;
+}
+.ourlocations .row{ justify-content: center;}
+.padt50{ padding-top: 40px;}
+
 
 
   @media (min-width: 320px) and (max-width: 767px) {
