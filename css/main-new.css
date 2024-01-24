@@ -1742,14 +1742,14 @@ body div .plus-minus{ background: none !important;}
   margin-top: 106px;}
 .democntbox{
   background: #fafafa;
-  margin: 28px 186px;
-  padding: 50px;
+  margin: 28px 180px;
+  padding: 50px 30px;
   position: relative;
   }
 .dlist{display: flex;align-items: center;justify-content: space-between;}
 .dlist span strong{ display: block;} 
-.dlist li{display: flex;background: #fff;padding: 10px 15px;border: 1px solid #ddd;border-radius: 8px;}
-.dlist span{ padding: 0 0 0 10px;}
+.dlist li{display: flex;background: #fff;padding: 10px 10px;border: 1px solid #ddd;border-radius: 8px;font-size: 14px;width: auto;margin: 0 5px;}
+.dlist span{padding: 0 0 0 8px;}
 .demobanner h1{text-align: center;font-weight: 500;font-size: 45px;margin: 0 0 30px;}
 .demobanner .btnrow{ padding: 30px 0 0;}
 .demobanner .btnrow .btn{border-radius: 30px;padding: 15px 30px;}
@@ -1783,9 +1783,13 @@ body div .plus-minus{ background: none !important;}
 .dmiconslb{position: absolute;bottom: 0;left: -150px;}
 .dmiconsrt{position: absolute;top: 0;right: -180px;}
 .dmiconsrb{position: absolute;bottom: 0;right: -150px;}
-.inbox{ border: 1px solid #E2E2E2;
-  padding: 30px;
-  border-radius: 6px }
+.inbox{
+  border: 1px solid #E2E2E2;
+  padding: 20px;
+  border-radius: 6px;
+  min-height: 250px;
+  margin: 0 0 30px;
+  }
   .inbox h6{margin: 20px 0 10px;
     font-weight: 700;
     font-size: 20px;}
@@ -1799,20 +1803,20 @@ body div .plus-minus{ background: none !important;}
   position: absolute;
   left: -30px;
   top: 37px;
-  bottom: 447px;
+  bottom: 460px;
   content: "";
   }
 .cntsidebar{position: relative;}
-.hedfour:after{width: 10px;height: 10px;/* bottom: 12px; */background-color: #000;border-radius: 50%;content: "";position: absolute;left: -34px;z-index: 3;}
+.hedfour:after{width: 10px;height: 10px;bottom: 15px;background-color: #000;border-radius: 50%;content: "";position: absolute;left: -34px;z-index: 3;}
 
 .dfaqs h4{
   font-weight: 600;
   margin: 70px 0 0px;
   font-size: 30px;
   }
-.dfaqs .card-header{padding: 0;background: none;box-shadow: 0 0;border: none;} 
+.dfaqs .card-header{padding: 0;background: none;box-shadow: 0 0;border: none;background: #fafafa;} 
 .dfaqs .card-header a{display: block;text-align: left;border: none;padding: 14px;}
-.dfaqs .panel-default{ margin: 0 0 20px;}
+.dfaqs .panel-default{ margin: 0 0 20px; overflow: hidden;}
 .dfaqs .updown_arrow {
   right: 20px;
   font-size: 30px;
@@ -1820,8 +1824,8 @@ body div .plus-minus{ background: none !important;}
 }
 .dfaqs .card-header a:focus{ color: #000;}
 .fullstackcnt .row.items-center{ justify-content: center;}
-
-
+.discovertxt:after{ top: 30px;}
+.martop0{ margin-top: 0 !important;}
 
 
   @media (min-width: 320px) and (max-width: 767px) {
