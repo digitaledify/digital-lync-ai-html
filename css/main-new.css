@@ -1741,6 +1741,10 @@ body div .plus-minus{ background: none !important;}
   font-size: 30px;
   font-weight: 700;
   margin: 20px 0 30px;
+  background: linear-gradient(90deg, #7928ca, #00ff76);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
 .coursebenfits h5{text-align: center;font-size: 15px;margin: 0 0 40px;}
 .navpillscol{/* display: flex; *//* align-items: center; *//* justify-content: center; */}
@@ -1752,16 +1756,16 @@ body div .plus-minus{ background: none !important;}
 .trusted.trustcourse h5{letter-spacing: 0;margin-bottom: 30px;background-clip: text;-webkit-background-clip: text !important;-webkit-text-fill-color: transparent;background: linear-gradient(90deg, #7b28ca, #f60284);}
 .trusted.trustcourse ul li img{filter: grayscale(0%);}
 .trusted.trustcourse ul li{padding: 0px 55px 5px;}
-.certifcaton{ padding: 80px 0; background-color: #fafafa;}
+.certifcaton{padding: 60px 0;background-color: #fafafa;}
 .radius10{ border-radius: 10px;}
-.certifcaton h3{ text-align: center; margin: 0 0 40px; font-weight: 700;}
+.certifcaton h3{text-align: center;margin: 0 0 40px;font-weight: 700;background: linear-gradient(90deg, #7928ca, #00ff76);background-clip: text;-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-size: 30px;}
 .certifcaton .btn{ margin: 0;
   font-size: 15px;
   white-space: break-spaces;
   text-align: left;
   padding: 0;
   line-height: 20px;}
-.coursebenfits.paytabs{padding: 80px 0; }
+.coursebenfits.paytabs{padding: 0 0 60px 0;}
 .coursebenfits.paytabs h4{ margin: 0 0 40px;}
 .paytabs .navpillscol .nav{background-color: #eee;display: block;}
 .pricerow{display: flex;text-align: left;min-height: 315px;}
@@ -1772,7 +1776,7 @@ body div .plus-minus{ background: none !important;}
 .nprice span{text-decoration-style: dashed;text-decoration: line-through;padding-left: 10px;}
 .dprice{font-size: 50px;line-height: initial;font-weight: 600;color: #fff;padding: 10px 0;}
 .ysave{font-weight: 500;color: #fff;}
-.pricecol.right .btn{width: 79%;margin: 0;padding: 15px;font-size: 17px;}
+.pricecol.right .btn{width: 60%;margin: 0;padding: 20px 15px;font-size: 18px;}
 .coursebenfits.paytabs .tab-content{padding: 0;box-shadow: 0 0 20px #c6c6c666;/* margin-top: 60px; */}
 .checkbox-inline, .radio-inline {
   position: relative;
@@ -1850,7 +1854,7 @@ body div .plus-minus{ background: none !important;}
   padding: 10px 0 0;
 }
 .slider-content.slidernewcnt {
-  padding: 11% 0 120px;
+  padding: 9% 0 40px;
 }
 .trustcourse .owl-item .item {
   filter: grayscale(0%) !important;
@@ -1886,6 +1890,33 @@ body div .plus-minus{ background: none !important;}
 }
 .slidernewcnt .duration:after{background-position: -16px -525px;}
 .pad30{ padding: 50px; }
+.trusted.ourtrust{ padding: 0;}
+.trusted.ourtrust h3{
+  text-align: center;
+  background: linear-gradient(90deg, #7928ca, #ff0080);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0 0 30px;
+  }
+.cource_col.padt40{ padding-top: 40px;}
+.radio-inline:hover, .radio-inline.active{ background-color: #fafafa;}
+.coursebenfits h4 span{font-size: 50px;
+  background: linear-gradient(90deg, #7928ca, #00ff76);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+.certifcaton h4{ text-align: center; font-size: 20px; font-weight: 700; margin: 0 0 10px;}
+.padlrt20{ padding: 0 40px;}
+
+
+
+
+
+
+
 
   @media (min-width: 320px) and (max-width: 767px) {
     .collapse:not(.show) {
