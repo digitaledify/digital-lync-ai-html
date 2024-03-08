@@ -34,44 +34,11 @@ $(document).ready(function() {
     });
 	
 	<!--     -->
-	
-	 $(document).ready(function(){
-        // Add minus icon for collapse element which is open by default
-        $(".cource_col .collapse.show").each(function(){
-        	$(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
-			$(this).prev(".card-header").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-up");
-        });
-        
-        // Toggle plus minus icon on show hide of collapse element
-        $(".cource_col .collapse").on('show.bs.collapse', function(){
-        	$(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
-			$(this).prev(".card-header").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-up");
-        }).on('hide.bs.collapse', function(){
-        	$(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
-			$(this).prev(".card-header").find(".fa").removeClass("fa-angle-up").addClass("fa-angle-down");
-        });
-    });
-	 
-	 <!--       -->
 	 
 
 
 
-
-
-   $(document).ready(function(){
-    // Add minus icon for collapse element which is open by default
-    $(".cource-mid .collapse.show").each(function(){
-      $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus"); 
-    });
-    
-    // Toggle plus minus icon on show hide of collapse element
-    $(".cource-mid .collapse").on('show.bs.collapse', function(){
-      $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus"); 
-    }).on('hide.bs.collapse', function(){
-      $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus"); 
-    });
-});
+ 
 
 
 
