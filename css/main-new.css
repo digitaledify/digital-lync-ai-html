@@ -1733,19 +1733,6 @@ body div .plus-minus{ background: none !important;}
 .blogdlist .bluebg{ color: #fff;}
 .blogdlist .blogcnt h5 {
   color: #222;}
-<<<<<<< Updated upstream
-.demobanner{ background-image: url(../images/demobg.jpg);
-  padding: 100px;
-  min-height: 650px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  margin-top: 106px;}
-.democntbox{
-  background: #fafafa;
-  margin: 28px 180px;
-  padding: 50px 30px;
-=======
 .trustcourse{background: #fff;padding-bottom: 10px !important;padding-top: 20px;border-radius: 130px;box-shadow: 0 0 30px #cccccc57;margin-top: -140px;padding-left: 60px;padding-right: 60px;}
 .home-slider.btmpad0{ padding-bottom: 0;}
 .coursebenfits{padding: 10px 0 50px;background: #fafdfc;}
@@ -1792,32 +1779,8 @@ body div .plus-minus{ background: none !important;}
 .pricecol.right .btn{width: 60%;margin: 0;padding: 20px 15px;font-size: 18px;border: none !important;}
 .coursebenfits.paytabs .tab-content{padding: 0;box-shadow: 0 0 20px #c6c6c666;/* margin-top: 60px; */}
 .checkbox-inline, .radio-inline {
->>>>>>> Stashed changes
   position: relative;
   }
-<<<<<<< Updated upstream
-.dlist{display: flex;align-items: center;justify-content: space-between;}
-.dlist span strong{ display: block;} 
-.dlist li{display: flex;background: #fff;padding: 10px 10px;border: 1px solid #ddd;border-radius: 8px;font-size: 14px;width: auto;margin: 0 5px;}
-.dlist span{padding: 0 0 0 8px;}
-.demobanner h1{text-align: center;font-weight: 500;font-size: 45px;margin: 0 0 30px;}
-.demobanner .btnrow{ padding: 30px 0 0;}
-.demobanner .btnrow .btn{border-radius: 30px;padding: 15px 30px;}
-.demobanner .btnrow .btn.bgwhite{border: 1px solid #1717174a!important;}
-.demobanner .btnrow .btn.bgwhite:after{ display: none;}
-.demobanner .btnrow .btn.bgwhite:before{ display: none;}
-.demobanner .btnrow .btn.bgwhite:hover{background:  #1717174a!important;}
-.fullstackcnt{padding: 50px 0 120px;border-bottom: 1px solid #eee;}
-.hedfour{position: relative;font-weight: 600;margin: 50px 0 20px;font-size: 30px;}
-.fullstackcnt .box{padding: 30px;background-color: #fff;box-shadow: 0 0 20px #cccccca8;border-radius: 10px;border: 1px solid #ddd;}
-.fullstackcnt .box li{position: relative;padding: 10px 0;display: flex;align-items: center;}
-.fullstackcnt .box li i{border: 1px solid #ddd;padding: 5px;margin-right: 15px;border-radius: 6px;width: 30px;height: 30px;text-align: center;line-height: 18px;}
-.fullstackcnt .box ul{ padding: 0; margin: 0;}
-.fullstackcnt .box .btnrow{ justify-content: left; padding:30px 0 20px;}
-
-.ourlocations{ padding:70px 0; background-color: #fafafa; text-align:center;}
-.ourlocations h3 {
-=======
 .paytabs .navpillscol .nav{min-height: 318px;}
 .trustcourse .owl-prev {
   background: url(../images/arrowsl.png) !important;
@@ -2279,7 +2242,6 @@ img{ max-width: 100%;}
 
 .awsengeers{ padding: 80px 0; text-align: center;} 
 .awsengeers h4{
->>>>>>> Stashed changes
   font-size: 1.8rem;
   line-height: 2rem;
   font-weight: 700;
@@ -2290,60 +2252,6 @@ img{ max-width: 100%;}
   margin: 0 0 20px;
   font-size: 18px;
 }
-<<<<<<< Updated upstream
-.ourlocations .row{ justify-content: center;}
-.padt50{ padding-top: 40px;}
-.dmiconslt{position: absolute;left: -200px;top: -30px;}
-.dmiconslb{position: absolute;bottom: 0;left: -150px;}
-.dmiconsrt{position: absolute;top: 0;right: -180px;}
-.dmiconsrb{position: absolute;bottom: 0;right: -150px;}
-.inbox{
-  border: 1px solid #E2E2E2;
-  padding: 20px;
-  border-radius: 6px;
-  min-height: 250px;
-  margin: 0 0 30px;
-  }
-  .inbox h6{margin: 20px 0 10px;
-    font-weight: 700;
-    font-size: 20px;}
-    .inbox p{ margin: 0;}
-.dmap{ padding:20px;border: 1px solid #E2E2E2;border-radius: 6px;}
-.daddress{ display: flex; padding: 20px 0 0;} 
-.daddress i{ padding-right: 20px;}
-.cntsidebar:after{
-  width: 1px;
-  background-color: #a1a1a1;
-  position: absolute;
-  left: -30px;
-  top: 37px;
-  bottom: 460px;
-  content: "";
-  }
-.cntsidebar{position: relative;}
-.hedfour:after{width: 10px;height: 10px;bottom: 15px;background-color: #000;border-radius: 50%;content: "";position: absolute;left: -34px;z-index: 3;}
-
-.dfaqs h4{
-  font-weight: 600;
-  margin: 70px 0 0px;
-  font-size: 30px;
-  }
-.dfaqs .card-header{padding: 0;background: none;box-shadow: 0 0;border: none;background: #fafafa;} 
-.dfaqs .card-header a{display: block;text-align: left;border: none;padding: 14px;}
-.dfaqs .panel-default{ margin: 0 0 20px; overflow: hidden;}
-.dfaqs .updown_arrow {
-  right: 20px;
-  font-size: 30px;
-  top: 10px;
-}
-.dfaqs .card-header a:focus{ color: #000;}
-.fullstackcnt .row.items-center{ justify-content: center;}
-.discovertxt:after{ top: 30px;}
-.martop0{ margin-top: 0 !important;}
-
-
-  @media (min-width: 320px) and (max-width: 767px) {
-=======
 .number-count {
   position: absolute;
   background: #81b0fe;
@@ -2885,7 +2793,6 @@ body div .plus-minus{ background: none !important;}
 
 
 @media (min-width: 320px) and (max-width: 767px) {
->>>>>>> Stashed changes
     .collapse:not(.show) {
       display: none;
   }
