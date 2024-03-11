@@ -2875,10 +2875,6 @@ body div .plus-minus{ background: none !important;}
 
 
   }
-<<<<<<< Updated upstream
-  
-  
-=======
   @media (min-width: 1600px) and (max-width: 5000px){
 .slider-content ul li {
     padding-bottom: 5px;
@@ -2901,7 +2897,6 @@ body div .plus-minus{ background: none !important;}
   animation-name: onecol; 
   animation-direction: alternate;
 }
->>>>>>> Stashed changes
 
 @keyframes twocol {
   from {
@@ -3022,3 +3017,40 @@ body div .plus-minus{ background: none !important;}
   font-weight: 700;}
 
   .ourlocations .row{ justify-content: center;}
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .grapone{ padding: 0 2px;}.grapbar{width: 45px;}.salarygraph span{font-size: 10px;}
+    .tabsvertical ul {
+      display: block;}.tabsvertical ul li a{padding: 6px 0;text-align: center; display: inline-block;}.titlesix{font-size: 25px;}.tabsvertical ul li{ text-align: center;}
+      .packname strong {
+        font-size: 25px;}
+        .packname.topbtm {
+          padding: 20px 0;
+      }.viewpack{ margin-bottom: 10px;}.trusted.ourtrust h3{font-size: 25px;}
+      .trusted ul li {
+        padding: 0 2px 10px;
+    }.cource-mid { 
+      width: auto;
+  }.cource-mid .card-header a{font-size: 1rem;}.toolsplotform h5 {
+    font-size: 25px;
+}.projectcontainer { 
+  padding-left: 40px;
+}.projectboxbtm {
+  display: block;}
+  .labelskill {
+    width: auto;
+}.labelauthor span {
+  padding-left: 0; 
+  padding-right: 10px;
+}.heading-1 {
+  font-size: 30px;
+}.tabs-stage{ padding: 0;} .circlebgvoilet1{ display: none;}.navbar-collapse{ top: 0;}
+.awsengeers h4{font-size: 1.2rem;margin: 0 0 60px;}.projectbox{ padding: 20px;}.text-xl {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}.projectbox {
+  font-size: 0.8rem;}
+
+  }
+
+
