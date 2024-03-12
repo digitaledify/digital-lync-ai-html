@@ -1745,8 +1745,8 @@ Candidates looking for a change in the IT Field."
         <div class="pricerow">
           <div class="pricecol left">
            
-            <div class="radiobuttons">
-              <div class="rdio rdio-primary radio-inline active"> <input name="radio" value="1" id="radio1" type="radio" checked>
+            <div class="radiobuttons" >
+              <div class="rdio rdio-primary radio-inline active radio1" > <input name="radio" value="1" id="radio1" type="radio" checked>
                 <label for="radio1">
                 <span class="bdate"> <span id="js-batch-0" > </span> </span>  <span class="bweek">Monday (6 Weeks)</span>
                 <span class="btime"><em>08:00 AM to 10:00 AM (IST)</em> <strong>CLASS 1</strong> </span>
@@ -1755,7 +1755,7 @@ Candidates looking for a change in the IT Field."
                 </label>
               </div>
     
-              <div class="rdio rdio-primary radio-inline"> <input name="radio" value="1" id="radio2" type="radio" >
+              <div class="rdio rdio-primary radio-inline radio2"> <input name="radio" value="1" id="radio2" type="radio" >
                 <label for="radio2">
                 <span class="bdate"> <span id="js-batch-1" > </span> </span>  <span class="bweek"> Wednesday (6 Weeks)</span>
                 <span class="btime"><em>09:00 AM to 11:00 AM (IST)</em> <strong>CLASS 2</strong> </span>
@@ -1764,7 +1764,7 @@ Candidates looking for a change in the IT Field."
                 </label>
               </div>
     
-              <div class="rdio rdio-primary radio-inline"> <input name="radio" value="1" id="radio3" type="radio">
+              <div class="rdio rdio-primary radio-inline radio3"> <input name="radio" value="1" id="radio3" type="radio">
                 <label for="radio3">
                 <span class="bdate"> <span id="js-batch-2" > </span>  </span>  <span class="bweek"> Friday  (6 Weeks)</span>
                 <span class="btime"><em>07:00 AM to 10:00 AM (IST)</em> <strong>CLASS 3</strong> </span>
@@ -2195,6 +2195,28 @@ Candidates looking for a change in the IT Field."
     $($(this).attr('href')).show();
   });
   </script>
+  <script>
+    $(function () {
+       $(".radio1").click(function () {
+           $(".radio1").addClass("active");
+           $(".radio2").removeClass("active");
+           $(".radio3").removeClass("active");
+           
+       });
+       $(".radio2").click(function () {
+           $(".radio1").removeClass("active");
+           $(".radio2").addClass("active");
+           $(".radio3").removeClass("active");
+           
+       });
+       $(".radio3").click(function () {
+           $(".radio1").removeClass("active");
+           $(".radio2").removeClass("active");
+           $(".radio3").addClass("active");
+           
+       });
+   });
+   </script>
 </body>
 
 </html>
