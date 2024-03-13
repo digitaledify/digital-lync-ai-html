@@ -5394,6 +5394,8 @@ body div .plus-minus {
 .pricecol.right .btn:hover {
     color: #fff
 }
+.dcourse{ display: block !important;}
+.mcourse{ display: none !important;}
 
 @media (min-width: 320px) and (max-width: 767px) {
     .grapone {
@@ -5669,8 +5671,10 @@ body div .plus-minus {
                     width: auto;
                 }
 }
-
+.mcourse{ padding: 0 0 10px;}
 @media (min-width:320px) and (max-width:767px) {
+    .dcourse{ display: none !important;}
+    .mcourse{ display: block !important;}
     .coursebenfits h4{ font-size: 20px;}
     .coursebenfits h4 span {
         font-size: 25px;}
