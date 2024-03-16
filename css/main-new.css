@@ -3,7 +3,7 @@
 
 .submenu{display: none;position: absolute;width:220px;top: 100%;right: auto;left: -10px;z-index: 1;border-bottom: 0px solid #f1f1f1;text-align: left;background-color: #fff;padding:15px 15px 20px;box-shadow: 0 3px 5px rgb(238 238 238 / 50%); border-radius: 0 0 5px 5px;}.submenu li{ display: block;}.submenu li a{padding: 0.4rem 0 !important;}.submenu li a span{ letter-spacing: 0;font-weight: 300;font-size: 15px;}.menu.relative:hover svg{
     -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); transform: rotate(180deg);}.submenu li a:after, .submenu li a:before{ display: none;}.menu.viewall{ text-align: center;}body .menu.viewall a{background: #2176eb;color: #fff;border-radius: 5px;padding: 0.6rem 0 !important;}body .menu.viewall a:hover{ color: #fff;}.block{ display: block;}
-.workshopbanner{ z-index: 1;}.submenu{box-shadow: 0 13px 15px rgb(199 199 199 / 80%);}.slidetrain{ padding: 50px 0 50px;}.header{background: #fff;/* box-shadow: 0 0 15px rgb(204 204 204 / 0%); */border-bottom: 1px solid #eeeeeeab;z-index: 9999;}.slidetrain h1{ font-weight: 500; font-size: 30px;}.slidetrain ul{ margin: 0; padding: 10px 0 40px; list-style-type: none;}.slidetrain ul li{ position: relative; padding: 5px 0 5px 30px; }.slidetrain ul li::after{ width: 18px; height: 18px; position: absolute; left: 0px; content: ""; background-image: url(../images/roundtick.png);}.slidebtns a{display: inline-block;padding: 10px 15px;border: 1px solid #4285f2;border-radius: 5px;color: #4285f2;font-size: 13px;min-width: 190px;text-align: center;font-weight: 500;}.slidebtns a.active, .slidebtns a:hover{ background: #4285f2 !important; color: #fff !important; margin-right: 10px;}.slidebtns a.active:hover{ background: #fff !important;color: #4285f2 !important;}#main_slider .item {height: auto;}#main_slider{height: auto;}.herobannerimg{ position: relative; display: inline-block;display: grid;justify-content: center;align-content: center;}.rotating{-webkit-animation: rotating 14s linear infinite;-moz-animation: rotating 14s linear infinite;-ms-animation: rotating 14s linear infinite;-o-animation: rotating 14s linear infinite;animation: rotating 14s linear infinite;} @-webkit-keyframes rotating /* Safari and Chrome */ {from {-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}
+.workshopbanner{ z-index: 1;}.submenu{box-shadow: 0 13px 15px rgb(199 199 199 / 80%);}.slidetrain{ padding: 50px 0 50px;}.header{background: #fff;/* box-shadow: 0 0 15px rgb(204 204 204 / 0%); */border-bottom: 1px solid #eeeeeeab;z-index: 999;}.slidetrain h1{ font-weight: 500; font-size: 30px;}.slidetrain ul{ margin: 0; padding: 10px 0 40px; list-style-type: none;}.slidetrain ul li{ position: relative; padding: 5px 0 5px 30px; }.slidetrain ul li::after{ width: 18px; height: 18px; position: absolute; left: 0px; content: ""; background-image: url(../images/roundtick.png);}.slidebtns a{display: inline-block;padding: 10px 15px;border: 1px solid #4285f2;border-radius: 5px;color: #4285f2;font-size: 13px;min-width: 190px;text-align: center;font-weight: 500;}.slidebtns a.active, .slidebtns a:hover{ background: #4285f2 !important; color: #fff !important; margin-right: 10px;}.slidebtns a.active:hover{ background: #fff !important;color: #4285f2 !important;}#main_slider .item {height: auto;}#main_slider{height: auto;}.herobannerimg{ position: relative; display: inline-block;display: grid;justify-content: center;align-content: center;}.rotating{-webkit-animation: rotating 14s linear infinite;-moz-animation: rotating 14s linear infinite;-ms-animation: rotating 14s linear infinite;-o-animation: rotating 14s linear infinite;animation: rotating 14s linear infinite;} @-webkit-keyframes rotating /* Safari and Chrome */ {from {-webkit-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);}
 to {-webkit-transform: rotate(360deg);-o-transform: rotate(360deg);transform: rotate(360deg);}} @keyframes rotating {
 from {-ms-transform: rotate(0deg); -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg);-o-transform: rotate(0deg);
 transform: rotate(0deg);} to {-ms-transform: rotate(360deg); -moz-transform: rotate(360deg);-webkit-transform: rotate(360deg);
@@ -5886,7 +5886,7 @@ header.fixed-header {
     height: 25px;
     border: 1px solid #d6d6d6;
     border-radius: 50%;
-    font-size: 10px;
+    font-size: 18px;
     line-height: 26px;
     bottom: 20%;
     right: -3px;
@@ -6023,7 +6023,12 @@ header.fixed-header {
     padding: 0 0 2px;
     display: block;
 } 
-
+.herosection.homepage{ padding: 150px 0 50px ;}
+.footer ul li a {
+    font-size: 25px;
+}.prmenu .submenu { 
+    height: auto !important;
+}
 
 @media (min-width:320px) and (max-width:767px) {
     .dcourse{ display: none !important;}
@@ -6131,4 +6136,9 @@ header.fixed-header {
                                                         padding: 10px;  
                                                         text-align: center;
                                                     }
+                                                    .herosection.homepage {
+                                                        padding: 90px 20px 30px;
+                                                    }
+                                                    footer.footerwhite h5 {
+                                                        margin: 20px 0 10px;}
 }
