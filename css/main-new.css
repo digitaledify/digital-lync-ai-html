@@ -6140,4 +6140,9 @@ header.fixed-header {
                                                     }
                                                     footer.footerwhite h5 {
                                                         margin: 20px 0 10px;}
+                                                        .ourtrust{ display: none;}
+                                                        .home-slider img.mart20{ display: none;}
+                                                        .toolsplotform{ display: none;}
+                                                        .globimg{ display: none;} 
+                                                        .ourlocations img{ display: none;}
 }
