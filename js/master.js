@@ -12,17 +12,7 @@ function include(file) {
 /* Include Many js files */
 include('https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'); 
 include('https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'); 
-  
-
-$(window).scroll(function(){
-    if ($(window).scrollTop() >= 300) {
-        $('header').addClass('fixed-header'); 
-    }
-    else {
-        $('header').removeClass('fixed-header'); 
-    }
-});
-
+ 
  $(".see-more a").click(function(){
   $(".more_live_projects").show();
   $(".see-more").hide();
