@@ -3859,7 +3859,7 @@ img {
     color: #6f1890;
     position: absolute;
     right: 20px;
-    top: 22px;
+    top: 14px;
     font-weight: 100;
     line-height: initial
 }
@@ -5028,14 +5028,16 @@ body div .plus-minus {
 .devup .panel-default {
     padding: 0;
     border-radius: 6px;
-    margin-top: 36px;
-    background: none
+    margin-top: 30px;
+    background: none;
+    box-shadow: 0 0 13px #cccccc4f;
 }
 
 .devup .panel .btn {
-    border-radius: 6px 6px 0 0;
+    border-radius: 6px;
     padding-left: 30px;
-    background: #fff!important
+    background: #fff!important;
+    padding-bottom: 18px;
 }
 
 .devup .fa-angle-down {
@@ -5415,7 +5417,7 @@ body div .plus-minus {
 }
 
 .heading-1 {
-    font-size: 38px
+    font-size: 35px;
 }
 
 .curriculum_hed {
@@ -6028,6 +6030,7 @@ header.fixed-header {
 }.prmenu .submenu { 
     height: auto !important;
 }
+.devup .cource-mid .card-body{ padding: 0 30px 30px;}
 
 @media (min-width:320px) and (max-width:767px) {
     .dcourse{ display: none !important;}
