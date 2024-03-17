@@ -4059,27 +4059,7 @@
   <div data-leadform="CloudOps" />
   <script src="js/lead-form.js"></script>
   <script src="js/main.js"></script>
-   
-  <script type="text/javascript">
-    function toggleSelected(next) {
-      var $this = $(this);
-
-      $('.a, .b, .c').each(function (i, elem) {
-        $this.queue(function (n) {
-          $(elem).addClass('selected');
-          n();
-        }).delay(2000).queue(function (n) {
-          $(elem).removeClass('selected');
-          n();
-        });
-      });
-
-      $this.queue(toggleSelected);
-      next();
-    }
-
-    $('.a').queue(toggleSelected);
-  </script>
+    
   
   <script>
     // Show the first tab by default
