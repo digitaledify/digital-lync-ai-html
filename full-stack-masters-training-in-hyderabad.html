@@ -1840,6 +1840,9 @@ Candidates looking to explore other technology fields."
               </div>
             </div>
 
+
+
+            <div class="morecards">
             <div class="panel panel-default card wow fadeInUp animated">
               <div class="panel-heading card-header" id="headingOne0345120afc4vx1"> <a class="btn collapsed"
                   data-toggle="collapse" data-parent="#accordion1" href="#collapseOne0345120afc4vx1"><span
@@ -2115,8 +2118,10 @@ Candidates looking to explore other technology fields."
                 </div>
               </div>
             </div>
-
-
+</div>
+<div class="loadmore">
+              <a class="loadbtn">Load More</a>
+            </div>
 
 
 
@@ -2441,6 +2446,9 @@ Candidates looking to explore other technology fields."
                 </div>
               </div>
             </div>
+
+            <div class="morecards1">
+
             <div class="panel panel-default card wow fadeInUp animated">
               <div class="card-header" id="headingThirteen221wqeq12m23e452"> <a class="btn collapsed"
                   data-toggle="collapse" data-parent="#accordion1" href="#collapseThirteen221wqeq12m23e452"><span
@@ -2611,6 +2619,15 @@ Candidates looking to explore other technology fields."
                 </div>
               </div>
             </div>
+          </div>
+
+<div class="loadmore1">
+              <a class="loadbtn1">Load More</a>
+            </div>
+
+
+
+
             <div class="curriculum_hed">Cloud & DevOps</div>
             <div class="panel panel-default card wow fadeInUp animated">
               <div class="card-header" id="headingThirteen221wqeq12m23e452aw3231weq22"> <a class="btn collapsed"
@@ -3398,6 +3415,21 @@ $('.a').queue(toggleSelected);
     $('.tabs-stage div').hide();
     $('.tabs-stage div div').show();
     $($(this).attr('href')).show();
+  });
+</script>
+<script>
+  $('.loadbtn').on('click', function () {
+    $('.morecards').addClass('active');
+    $('.loadmore').addClass('active');
+    $(this).removeClass('active');
+  });
+</script>
+
+<script>
+  $('.loadbtn1').on('click', function () {
+    $('.morecards1').addClass('active');
+    $('.loadmore1').addClass('active');
+    $(this).removeClass('active');
   });
 </script>
 </body>
