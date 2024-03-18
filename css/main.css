@@ -189,6 +189,9 @@ font-size: 22px;}.hubcategoryrow h4{font-size: 20px;}.authbox span{padding-left:
 .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-4 .selected-flag {
     width: 100px !important;
 }
-
+.phnum{display: flex; gap: 1rem;}
+#formsubmit{width: 100%; margin-top: 2rem;}
+.hide{ display: none !important;}
+.w70px{ width: 70px;}
 
     
