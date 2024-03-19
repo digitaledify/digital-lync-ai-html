@@ -1007,8 +1007,36 @@
   <script src="js/chat.js"></script>
  
   <div data-leadform="Career&#x20;Counselling" />
-  <script src="js/lead-form.js"></script> 
+  <script src="js/lead-form.js"></script>
+
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+ <script id="rendered-js">
+  AOS.init({
+    duration: 1000 }); 
+      </script>
       
+
+
+<script type="text/javascript">
+  function toggleSelected(next) {
+var $this = $(this);
+
+$('.a, .b, .c').each(function (i, elem) {
+$this.queue(function (n) {
+$(elem).addClass('selected');
+n();
+}).delay(600).queue(function (n) {
+$(elem).removeClass('selected');
+n();
+});
+});
+
+$this.queue(toggleSelected);
+next();
+}
+
+$('.b').queue(toggleSelected);
+</script>
 
 </body>
 
