@@ -161,6 +161,13 @@ function main() {
       element.innerHTML = `${sat} & ${sun}`;
       return;
     }
+
+    if (index === 4) {
+      const sat = dates[index];
+      element.innerHTML = `${sat}`;
+      return;
+    }
+
     element.innerHTML = dates[index];
   });
 }
