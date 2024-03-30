@@ -12,4 +12,4 @@ animation: rotate 10s linear infinite;}@keyframes rotate {from {transform: rotat
 .ourlocations img{ width:unset !important; height: unset !important;}
 .phnum{display: flex; gap: 1rem;}#formsubmit{width: 100%; margin-top: 2rem;}.hide{ display: none !important;}.w70px{ width: 70px !important;}.imgwh{ width: unset !important; 
     height: unset !important;}.text-center{ text-align: center;}[data-aos="animation-scale-y"] { opacity: 1;}.btn_caller{ cursor: pointer;}.copyright a{ color: #281af0;}.copyright a:hover{ color: #004f99; text-decoration: underline;}.copyright{ font-weight: 500;}.fbold{ font-weight: 700;}.l42{ line-height: 42px;}.maintitle{color: #3A2E00;line-height: 42px;font-weight: 700;font-size: 35px;margin-bottom: 30px;font-weight: 700;}.toolsplotform .cursorPointer{ padding-bottom: 50px;}.marb0{ margin-bottom: 0 !important;} .marb0 strong{ font-weight: 500;}
-    .header .row{ align-items: center;}.mainhed{font-size: 20px;margin-bottom: 30px;line-height: 35px;font-weight: 700;} 
+    .header .row{ align-items: center;}.mainhed{font-size: 35px;margin-bottom: 30px;line-height: 42px;font-weight: 700;} 
