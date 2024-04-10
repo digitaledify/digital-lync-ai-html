@@ -5,4 +5,4 @@ html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-t
 .row.justify-content-center.cursorPointer{ justify-content: center;}.fullnode.salcebrdr{border: none !important;position: relative;}.fullnode.salcebrdr:after{position: absolute; left: 5px; top: 10px;
  bottom: 10px; width: 1px;  content: ""; background-color: #01ac6169;}.fullnode.salcebrdr div{ position: relative;}.fullnode.salcebrdr div:after{position: absolute; width: 10px;height: 10px;
 background-color: #01ac61; content: ""; left: -19px; top: 10px;border-radius: 50%;}.lbgcol .btnrow a{text-align:center;}
-@media (min-width:320px) and (max-width:767px){body{font-size:13px;}}
+@media (min-width:320px) and (max-width:767px){body{font-size:13px;}}.red{color: #f00;}
