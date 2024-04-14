@@ -2465,6 +2465,18 @@ function saveLeadDetails(event, courseId, techStack, classMode) {
         return;
     }
 
+    // Validate phone number format
+    if (!/^[0-9]{10}$/.test(phone.value)) {
+        alert('Please enter a valid phone number.');
+        return;
+    }
+
+    // Validate email format
+    if (!/^\S+@\S+\.\S+$/.test(email.value)) {
+        alert('Please enter a valid email address.');
+        return;
+    }
+
     // Prepare data object
     const leadData = {
         name: name.value,
