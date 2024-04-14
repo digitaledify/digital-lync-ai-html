@@ -1043,13 +1043,58 @@
   </div>
   <script type="text/javascript"
     id="zsiqchat">var $zoho = $zoho || {}; $zoho.salesiq = $zoho.salesiq || { widgetcode: "siq8d18959c180f3384841af21d3ba1667e37422b2ccc93650bfa7bdda1aaaaf250", values: {}, ready: function () { } }; var d = document; s = d.createElement("script"); s.type = "text/javascript"; s.id = "zsiqscript"; s.defer = true; s.src = "https://salesiq.zohopublic.in/widget"; t = d.getElementsByTagName("script")[0]; t.parentNode.insertBefore(s, t);</script>
+
+    <div id="get_trained" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">x</button>
+            <h4 class="modal-title">Get Skilled</h4>
+          </div>
+          <div class="modal-body">
+  
+            <div>
+              <form id="leadForm">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+  
+                <label for="phone">Phone</label>
+                <div class="form-group flexdrop">
+  
+                  <div class="selectdrop">
+                    <select class="form-control" id="countrySelect" onchange="selectCountry(event)">
+                      <option value="null">Select</option>
+                    </select>
+                  </div>
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="selectedCountryCode"></span>
+                  </div>
+                  <div class="input-group">
+                      
+                    <input type="text" class="form-control" id="phone" placeholder="Phone">
+                  </div>
+                 
+                </div>              
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <button onclick="saveLeadDetails(event, 2, 'Cloud Ops', 'Hyd Offline')" class="btn btn-primary"
+                  type="button">SUBMIT</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/chat.js"></script>
+  <script src="js/chat.js"></script> 
 
-  <div data-leadform="Career&#x20;Counselling"> </div>
-
-  <script src="js/lead-form.js"></script>  
+  <script src="js/save-lead-details.js"></script>  
   <script src="js/main.js"></script>
   
   <script type="text/javascript">
