@@ -1,6 +1,16 @@
 let filteredCountry = {};
 const countries = [
     {
+        "id": "12",
+        "country_name": "India",
+        "country_code": "IN",
+        "timezone": "IST",
+        "timezone_offset": "330",
+        "timezone_name": "Asia/Kolkata",
+        "phone_code": "+91",
+        "currency": "INR"
+    },
+    {
         "id": "2",
         "country_name": "US (CST)",
         "country_code": "US",
@@ -119,16 +129,6 @@ const countries = [
         "timezone_name": "America/Vancouver",
         "phone_code": "+1",
         "currency": "CAD"
-    },
-    {
-        "id": "12",
-        "country_name": "India",
-        "country_code": "IN",
-        "timezone": "IST",
-        "timezone_offset": "330",
-        "timezone_name": "Asia/Kolkata",
-        "phone_code": "+91",
-        "currency": "INR"
     },
     {
         "id": "80",
@@ -2446,9 +2446,13 @@ const countries = [
     const countrySelect = document.getElementById('countrySelect');
     countries.forEach(country => {
         const option = document.createElement('option');
-        option.innerHTML = country.country_name;
+        option.innerHTML = `${country.country_code}&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;${country.country_name}`;
+        option.value = country.country_code;
         countrySelect.appendChild(option);
     });
+    selectCountry({ target: { value: countries[0].country_name } });
+    document.getElementById('selectedCountryCode').innerHTML = countries[0]['phone_code'];
+    document.getElementById('countrySelect').value = countries[0]['country_code'];
 })();
 
 function saveLeadDetails(event, courseId, techStack, classMode) {
@@ -2529,8 +2533,7 @@ function saveLeadDetails(event, courseId, techStack, classMode) {
 }
 
 function selectCountry(event) {
-    filteredCountry = {};
-    filteredCountry = countries.find(country => country.country_name === event.target.value);
+    filteredCountry = countries.find(country => country.country_code === event.target.value);
     if (filteredCountry) {
         document.getElementById('selectedCountryCode').innerHTML = filteredCountry['phone_code'];
     }
