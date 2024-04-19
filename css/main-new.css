@@ -6,3 +6,56 @@ html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-t
  bottom: 10px; width: 1px;  content: ""; background-color: #01ac6169;}.fullnode.salcebrdr div{ position: relative;}.fullnode.salcebrdr div:after{position: absolute; width: 10px;height: 10px;
 background-color: #01ac61; content: ""; left: -19px; top: 10px;border-radius: 50%;}.lbgcol .btnrow a{text-align:center;}
 @media (min-width:320px) and (max-width:767px){body{font-size:13px;}header .flogo{height: 50px !important; margin: 10px 0;}.header .navbar-toggler{top: 20px;}}.red{color: #f00;}.getheding{font-size: 1.875rem;  line-height: 2.25rem;margin-top: 2rem; color: #2953b4;text-align: center;font-weight: 700;}
+
+.red {
+    color: #f00;
+}
+
+.flexdrop {
+    display: flex;
+}
+#leadForm .btn:hover{ background-color: #520ab1 !important;}
+#leadForm .btn {
+    background: #1554bb !important;
+    border: none;
+    padding: 15px 30px;
+    display: block;
+    width: 100%;
+    margin: 0;
+    color: #fff !important;
+    font-size: 20px;
+    cursor: pointer;
+}
+.selectdrop select{
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    text-shadow: 1px 1px rgba(255,255,255,0.7);
+    padding: 0px 0px 0px 15px;
+    font-size: 16px;
+    width: 21px;
+    height: 38px;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: radio-container;
+    appearance: none;
+    cursor: pointer;
+    /* background-color: #f5f8fa; */
+    border: 0px solid #cbd6e2;
+    font-size: 14px;
+    border-radius: 6px 0 0 6px;
+    overflow: hidden;
+    padding-right: 5px;
+    } .selectdrop{position: relative;width: auto;overflow: unset;display: flex;align-items: center;background: #eee;padding: 0 0px 0 0;border: 1px solid #cbd6e2;border-radius: 6px 0 0 6px;border-width: 0px 0 0px 0px;} 
+ 
+    .input-group-prepend{display: flex;height: 40px;width: 50px;align-items: center;justify-content: center;border: 1px solid #cbd6e2;border-width: 1px 0 1px 1px;background-color: #f5f8fa;}
+.selectdrop .fa{ font-size: 15px;}
+#selectedCountryCode{width: 50px;padding-left: 8px;padding-right: 20px;text-align: center;}
+.phoneinput .form-control{margin: 0 !important;}
+.phoneinput{margin: 0 0 20px;justify-content: space-between;}
+.phoneinput .input-group{width: 80%;}
