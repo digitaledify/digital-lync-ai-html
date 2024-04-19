@@ -59,3 +59,4 @@ $('.loadbtn1').on('click', function () {
   $('.loadmore1').addClass('active');
   $(this).removeClass('active');
 });
+ 
