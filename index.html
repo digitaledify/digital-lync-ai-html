@@ -1080,8 +1080,9 @@
     </div>
   </div>
   <script>
+    window.chatwootSettings = {"position":"right","type":"expanded_bubble","launcherTitle":"Chat with us"};
     (function(d,t) {
-      var BASE_URL="https://chatwoot.digitallync.ai";
+      var BASE_URL="https://app.chatwoot.com";
       var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=BASE_URL+"/packs/js/sdk.js";
       g.defer = true;
@@ -1089,7 +1090,7 @@
       s.parentNode.insertBefore(g,s);
       g.onload=function(){
         window.chatwootSDK.run({
-          websiteToken: 'sNUij4RrWzt9ieQfnupWAdJz',
+          websiteToken: 'BCCxzmwKBCkcExdLjvf5rtSp',
           baseUrl: BASE_URL
         })
       }
