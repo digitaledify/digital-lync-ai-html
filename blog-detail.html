@@ -347,152 +347,7 @@
                 <div   class="btn_caller fade-in one animated zoomIn"> <img src="images/call_o_o.png" width="24" height="24"
                   alt="Call Us" title="Call Us" class="lazyload imgwh"></div>
 
-
-                    <div id="get_trained" class="modal fade" role="dialog">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">×</button>
-                            <h4 class="modal-title">Start Now</h4>
-                          </div>
-                          <div class="modal-body">
-                  
-                  
-                  
-                            <!-- Note :
-                     - You can modify the font style and form style to suit your website. 
-                     - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code. 
-                     - The Mandatory check script can modified as to suit your business needs. 
-                     - It is important that you test the modified form before going live.-->
-                            <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm'
-                              style='background-color: white;color: black;max-width: 600px;'>
-                              <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-                              <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
-                              <form action='https://crm.zoho.in/crm/WebToLeadForm' name=WebToLeads579943000000340040 method='POST'
-                                onSubmit='javascript:document.charset="UTF-8"; return checkMandatory579943000000340040()'
-                                accept-charset='UTF-8'>
-                                <input type='text' style='display:none;' name='xnQsjsdp'
-                                  value='89c022cb3037f82925c40f6ce6fb70997f29bfb2370f3b6d36b9f068decb6cdc'></input>
-                                <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
-                                <input type='text' style='display:none;' name='xmIwtLD'
-                                  value='29ec2d9697d8d926314dd4a847ac49b708dce133bd3eabf9a7391e1bcdd5b7e363ff1bf70f3ad1aa9f4ffac68d277c54'></input>
-                                <input type='text' style='display:none;' name='actionType' value='TGVhZHM='></input>
-                                <input type='text' style='display:none;' name='returnURL'
-                                  value='https&#x3a;&#x2f;&#x2f;www.nexadesign.ai&#x2f;'> </input>
-                                <div class='zcwf_row'>
-                                  <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='Last_Name'>Name<span
-                                        style='color:red;'>*</span></label></div>
-                                  <div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxlength='80'></input>
-                                    <div class='zcwf_col_help'></div>
-                                  </div>
-                                </div>
-                                <div class='zcwf_row'>
-                                  <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='Phone'>Phone<span
-                                        style='color:red;'>*</span></label></div>
-                                  <div class='zcwf_col_fld' style="display: flex;"><input type='text' id='LEADCF11' value="+91"
-                                      name='LEADCF11' maxlength='255' style="width: 70px; margin-right: 20px;"><input type='text'
-                                      id='Phone' name='Phone' maxlength='30'></input>
-                                    <div class='zcwf_col_help'></div>
-                                  </div>
-                                </div>
-                                <div class='zcwf_row'>
-                                  <div class='zcwf_col_lab' style='font-size:12px; font-family: Arial;'><label for='Email'>Email<span
-                                        style='color:red;'>*</span></label></div>
-                                  <div class='zcwf_col_fld'><input type='text' ftype='email' autocomplete='false' id='Email' name='Email'
-                                      maxlength='100'></input>
-                                    <div class='zcwf_col_help'></div>
-                                  </div>
-                                </div>
-                                <div class='zcwf_row'>
-                                  <div class='zcwf_col_lab'></div>
-                                  <div class='zcwf_col_fld'><input type='submit' id='formsubmit' class='formsubmit zcwf_button'
-                                      value='Submit' title='Submit'> </div>
-                                </div>
-                                <script>
-                                  function validateEmail579943000000340040() {
-                                    var form = document.forms['WebToLeads579943000000340040'];
-                                    var emailFld = form.querySelectorAll('[ftype=email]');
-                                    var i;
-                                    for (i = 0; i < emailFld.length; i++) {
-                                      var emailVal = emailFld[i].value;
-                                      if ((emailVal.replace(/^\s+|\s+$/g, '')).length != 0) {
-                                        var atpos = emailVal.indexOf('@');
-                                        var dotpos = emailVal.lastIndexOf('.');
-                                        if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailVal.length) {
-                                          alert('Please enter a valid email address. ');
-                                          emailFld[i].focus();
-                                          return false;
-                                        }
-                                      }
-                                    }
-                                    return true;
-                                  }
-                  
-                                  function checkMandatory579943000000340040() {
-                                    var mndFileds = new Array('Last Name', 'Email', 'Phone');
-                                    var fldLangVal = new Array('Name', 'Email', 'Phone');
-                                    for (i = 0; i < mndFileds.length; i++) {
-                                      var fieldObj = document.forms['WebToLeads579943000000340040'][mndFileds[i]];
-                                      if (fieldObj) {
-                                        if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
-                                          if (fieldObj.type == 'file') {
-                                            alert('Please select a file to upload.');
-                                            fieldObj.focus();
-                                            return false;
-                                          }
-                                          alert(fldLangVal[i] + ' cannot be empty.');
-                                          fieldObj.focus();
-                                          return false;
-                                        } else if (fieldObj.nodeName == 'SELECT') {
-                                          if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
-                                            alert(fldLangVal[i] + ' cannot be none.');
-                                            fieldObj.focus();
-                                            return false;
-                                          }
-                                        } else if (fieldObj.type == 'checkbox') {
-                                          if (fieldObj.checked == false) {
-                                            alert('Please accept  ' + fldLangVal[i]);
-                                            fieldObj.focus();
-                                            return false;
-                                          }
-                                        }
-                                        try {
-                                          if (fieldObj.name == 'Last Name') {
-                                            name = fieldObj.value;
-                                          }
-                                        } catch (e) { }
-                                      }
-                                    }
-                                    if (!validateEmail579943000000340040()) { return false; }
-                                    document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
-                                  }
-                  
-                                  function tooltipShow579943000000340040(el) {
-                                    var tooltip = el.nextElementSibling;
-                                    var tooltipDisplay = tooltip.style.display;
-                                    if (tooltipDisplay == 'none') {
-                                      var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
-                                      for (i = 0; i < allTooltip.length; i++) {
-                                        allTooltip[i].style.display = 'none';
-                                      }
-                                      tooltip.style.display = 'block';
-                                    } else {
-                                      tooltip.style.display = 'none';
-                                    }
-                                  }
-                                </script>
-                                <!-- Do not remove this --- Analytics Tracking code starts -->
-                                <script id='wf_anal'
-                                  src='https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=99c8522891888d171a7be0805916588babb2ca3d9eb8a1e9b416bec4f217a61a676d89b8854e16e5fc841583f6ed56c1gid58138fb5d4fecf2c6179b960f30dd850889a9390e1fbec5d24e8f9b9989a43cbgid4d0facbe09051dd205c12d9a01a960e22307019ac3a864396de50e1d7a055b0bgid146dab72b93c72b9591e552fef3ad67b4afc19a040879df946dca828b2c56155&tw=6c028daf4dcb6d9294e0e8e4bb55a1a9d30fe9d6a4975775b790de7748fb089d'></script>
-                                <!-- Do not remove this --- Analytics Tracking code ends. -->
-                              </form>
-                            </div>
-                  
-                  
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+ 
 
 
 
@@ -533,6 +388,8 @@ $('.a').queue(toggleSelected);
   });
 
 </script>
+<div data-leadform="Career&#x20;Counselling"> </div>
+<script src="js/lead-form.js"></script>  
 </body>
 </html>
 
