@@ -1047,127 +1047,124 @@
         <h4 class="modal-title">Get Skilled</h4>
       </div>
       <div class="modal-body">  
-        
-<div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-   
-<form id='webform217508000034972137' action='https://crm.zoho.in/crm/WebToLeadForm' name=WebToLeads217508000034972137 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory217508000034972137()' accept-charset='UTF-8'>
- <input type='text' style='display:none;' name='xnQsjsdp' value='96bc0f1f62ec21b4ed2d3f709b31725128895fba3234a66c4c8a72946e723cd9'></input> 
- <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
- <input type='text' style='display:none;' name='xmIwtLD' value='8ec73a0be6f2216a3f10e0edd59af1f206466b96f2b8b89cb23159d834d97d93a422f1156021d3348354d5835d11e1ff'></input> 
- <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
- <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.digital-lync.com&#x2f;thank-you.html' > </input>
-	 <!-- Do not remove this code. -->
-	 <input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
-	 <input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
-
-	  <div class='zcwf_row'><div class='zcwf_col_lab'  ><label for='Last_Name'>Name<span class="red">*</span></label></div><div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxlength='80'></input><div class='zcwf_col_help'></div></div></div>
+         
+   <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+     <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
      
-    <div class='zcwf_col_lab' ><label for='Phone'>Phone<span class="red">*</span></label></div>
-    <div class="phnum">
-      <input type='text' id='LEADCF29' name='LEADCF29' maxlength='255' value='91'  class="w70px"></input>
-      <input type='text' id='Phone' name='Phone' maxlength='30'></input>
-    </div>
-
-
-    <div class='zcwf_row'><div class='zcwf_col_fld'><div class='zcwf_col_help'></div></div></div>
-    
-    <div class='zcwf_row'><div class='zcwf_col_lab' ><label for='Email'>Email<span class="red">*</span></label></div><div class='zcwf_col_fld'><input type='text' ftype='email' autocomplete='false' id='Email' name='Email' crmlabel='' maxlength='100'></input><div class='zcwf_col_help'></div></div></div><div class='zcwf_row'><div class='zcwf_col_lab'></div><div class='zcwf_col_fld'><input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Submit' title='Submit'> </div></div>
-	<script>
-	function validateEmail217508000034972137()
-	{
-		var form = document.forms['WebToLeads217508000034972137'];
-		var emailFld = form.querySelectorAll('[ftype=email]');
-		var i;
-		for (i = 0; i < emailFld.length; i++)
-		{
-			var emailVal = emailFld[i].value;
-			if((emailVal.replace(/^\s+|\s+$/g, '')).length!=0 )
-			{
-				var atpos=emailVal.indexOf('@');
-				var dotpos=emailVal.lastIndexOf('.');
-				if (atpos<1 || dotpos<atpos+2 || dotpos+2>=emailVal.length)
-				{
-					alert('Please enter a valid email address. ');
-					emailFld[i].focus();
-					return false;
-				}
-			}
-		}
-		return true;
-	}
-
-	function checkMandatory217508000034972137() {
-		var mndFileds = new Array('Last Name','Email','Phone');
-		var fldLangVal = new Array('Last\x20Name','Email','Phone');
-		for(i=0;i<mndFileds.length;i++) {
-		  var fieldObj=document.forms['WebToLeads217508000034972137'][mndFileds[i]];
-		  if(fieldObj) {
-			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
-			 if(fieldObj.type =='file')
-				{ 
-				 alert('Please select a file to upload.'); 
-				 fieldObj.focus(); 
-				 return false;
-				} 
-			alert(fldLangVal[i] +' cannot be empty.'); 
-   	   	  	  fieldObj.focus();
-   	   	  	  return false;
-			}  else if(fieldObj.nodeName=='SELECT') {
-  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
-				alert(fldLangVal[i] +' cannot be none.'); 
-				fieldObj.focus();
-				return false;
-			   }
-			} else if(fieldObj.type =='checkbox'){
- 	 	 	 if(fieldObj.checked == false){
-				alert('Please accept  '+fldLangVal[i]);
-				fieldObj.focus();
-				return false;
-			   } 
-			 } 
-			 try {
-			     if(fieldObj.name == 'Last Name') {
-				name = fieldObj.value;
- 	 	 	    }
-			} catch (e) {}
-		    }
-		}
-		trackVisitor217508000034972137();
-		if(!validateEmail217508000034972137()){return false;}
-		
-	var urlparams = new URLSearchParams( window.location.search);
-	if(urlparams.has('service') && (urlparams.get('service')==='smarturl')){
-		var webform = document.getElementById('webform217508000034972137');
-		 var service =  urlparams.get('service'); 
-		var smarturlfield = document.createElement('input');
-		smarturlfield.setAttribute('type','hidden');
-		smarturlfield.setAttribute('value',service);
-		smarturlfield.setAttribute('name','service');
-		webform.appendChild(smarturlfield); 
-	}
-
-		document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
-	}
-
-function tooltipShow217508000034972137(el){
-	var tooltip = el.nextElementSibling;
-	var tooltipDisplay = tooltip.style.display;
-	if(tooltipDisplay == 'none'){
-		var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
-		for(i=0; i<allTooltip.length; i++){
-			allTooltip[i].style.display='none';
-		}
-		tooltip.style.display = 'block';
-	}else{
-		tooltip.style.display='none';
-	}
-}
-</script><script type='text/javascript' id='VisitorTracking'>var $zoho= $zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:'siq8d18959c180f3384841af21d3ba1667e37422b2ccc93650bfa7bdda1aaaaf250', values:{},ready:function(){}};var d=document;s=d.createElement('script');s.type='text/javascript';s.id='zsiqscript';s.defer=true;s.src='https://salesiq.zoho.in/widget';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);function trackVisitor217508000034972137(){try{if($zoho){var LDTuvidObj = document.forms['WebToLeads217508000034972137']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads217508000034972137']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads217508000034972137']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}} catch(e){}}</script>
-	<!-- Do not remove this --- Analytics Tracking code starts --><script id='wf_anal' src='https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=7ba105236f524099fdd024c73ba3d3cea76e5dc4016143c6ea8a5b158dadb568367f01f51049ed79e5df210aecb7248bgid837b03c92d42c8bb94c2777704ac93d9b117811ec51a39c957941731e56f2a05gidefcd7e581eb39c48d618c1f697f37478342b0c8f87a543774901d88cbef7bce8gid7233faa24b1cffad505b87850482fb8b3cccd48a942122edb74ca6c253f306d8&tw=f309aa8efbdeaeabe2a64b8840ee61d767592b8c9e0896324705f18faed21554'></script><!-- Do not remove this --- Analytics Tracking code ends. --></form>
-</div>
-
+  <form id='webform217508000038206502' action='https://crm.zoho.in/crm/WebToLeadForm' name=WebToLeads217508000038206502 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory217508000038206502()' accept-charset='UTF-8'>
+   <input type='text' style='display:none;' name='xnQsjsdp' value='42db719a322ce186d41d5d55285524aa6033280979712d6e9bac15d39d4b38b9'></input> 
+   <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+   <input type='text' style='display:none;' name='xmIwtLD' value='6541ab2653200e470b5d9b1ac7bf241069f98d1fd5dbe4bf5fed0427bb20617b2b1d0eb810452edf00926fdafb107dee'></input> 
+   <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+   <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.digital-lync.com&#x2f;thank-you.html' > </input>
+     <!-- Do not remove this code. -->
+     <input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
+     <input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
+      
+  <div class='zcwf_row'><div class='zcwf_col_lab'><label for='Last_Name'>Name<span class="red">*</span></label></div><div class='zcwf_col_fld'><input type='text' id='Last_Name' name='Last Name' maxlength='80'></input><div class='zcwf_col_help'></div></div></div>
+  
+  
+  <div class='zcwf_col_lab' ><label for='Phone'>Phone<span class="red">*</span></label></div>
+  <div class="phnum">
+    <input type='text' id='LEADCF29' name='LEADCF29' maxlength='255' value='91'  class="w70px"></input>
+    <input type='text' id='Phone' name='Phone' maxlength='30'></input>
+  </div>
+  
+  <div class='zcwf_row'><div class='zcwf_col_lab' ><label for='Email'>Email<span class="red">*</span></label></div><div class='zcwf_col_fld'><input type='text' ftype='email' autocomplete='false' id='Email' name='Email' crmlabel='' maxlength='100'></input><div class='zcwf_col_help'></div></div></div><div class='zcwf_row'><div class='zcwf_col_lab'></div><div class='zcwf_col_fld'><input type='submit' id='formsubmit' class='formsubmit zcwf_button' value='Submit' title='Submit'> </div></div>
+    <script>
+    function validateEmail217508000038206502()
+    {
+      var form = document.forms['WebToLeads217508000038206502'];
+      var emailFld = form.querySelectorAll('[ftype=email]');
+      var i;
+      for (i = 0; i < emailFld.length; i++)
+      {
+        var emailVal = emailFld[i].value;
+        if((emailVal.replace(/^\s+|\s+$/g, '')).length!=0 )
+        {
+          var atpos=emailVal.indexOf('@');
+          var dotpos=emailVal.lastIndexOf('.');
+          if (atpos<1 || dotpos<atpos+2 || dotpos+2>=emailVal.length)
+          {
+            alert('Please enter a valid email address. ');
+            emailFld[i].focus();
+            return false;
+          }
+        }
+      }
+      return true;
+    }
+  
+    function checkMandatory217508000038206502() {
+      var mndFileds = new Array('Last Name','Email','Phone');
+      var fldLangVal = new Array('Last\x20Name','Email','Phone');
+      for(i=0;i<mndFileds.length;i++) {
+        var fieldObj=document.forms['WebToLeads217508000038206502'][mndFileds[i]];
+        if(fieldObj) {
+        if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+         if(fieldObj.type =='file')
+          { 
+           alert('Please select a file to upload.'); 
+           fieldObj.focus(); 
+           return false;
+          } 
+        alert(fldLangVal[i] +' cannot be empty.'); 
+                  fieldObj.focus();
+                  return false;
+        }  else if(fieldObj.nodeName=='SELECT') {
+                 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+          alert(fldLangVal[i] +' cannot be none.'); 
+          fieldObj.focus();
+          return false;
+           }
+        } else if(fieldObj.type =='checkbox'){
+            if(fieldObj.checked == false){
+          alert('Please accept  '+fldLangVal[i]);
+          fieldObj.focus();
+          return false;
+           } 
+         } 
+         try {
+             if(fieldObj.name == 'Last Name') {
+          name = fieldObj.value;
+               }
+        } catch (e) {}
+          }
+      }
+      trackVisitor217508000038206502();
+      if(!validateEmail217508000038206502()){return false;}
+      
+    var urlparams = new URLSearchParams( window.location.search);
+    if(urlparams.has('service') && (urlparams.get('service')==='smarturl')){
+      var webform = document.getElementById('webform217508000038206502');
+       var service =  urlparams.get('service'); 
+      var smarturlfield = document.createElement('input');
+      smarturlfield.setAttribute('type','hidden');
+      smarturlfield.setAttribute('value',service);
+      smarturlfield.setAttribute('name','service');
+      webform.appendChild(smarturlfield); 
+    }
+  
+      document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
+    }
+  
+  function tooltipShow217508000038206502(el){
+    var tooltip = el.nextElementSibling;
+    var tooltipDisplay = tooltip.style.display;
+    if(tooltipDisplay == 'none'){
+      var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
+      for(i=0; i<allTooltip.length; i++){
+        allTooltip[i].style.display='none';
+      }
+      tooltip.style.display = 'block';
+    }else{
+      tooltip.style.display='none';
+    }
+  }
+  </script><script type='text/javascript' id='VisitorTracking'>var $zoho= $zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:'siq8d18959c180f3384841af21d3ba1667e37422b2ccc93650bfa7bdda1aaaaf250', values:{},ready:function(){}};var d=document;s=d.createElement('script');s.type='text/javascript';s.id='zsiqscript';s.defer=true;s.src='https://salesiq.zoho.in/widget';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);function trackVisitor217508000038206502(){try{if($zoho){var LDTuvidObj = document.forms['WebToLeads217508000038206502']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads217508000038206502']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads217508000038206502']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}} catch(e){}}</script>
+    <!-- Do not remove this --- Analytics Tracking code starts --><script id='wf_anal' src='https://crm.zohopublic.in/crm/WebFormAnalyticsServeServlet?rid=faa1b8e9d21d7b3bf7bf7575ce291e26d052cf9f186edad2aad4c588d2c4c6cfceed55694271a7c5ab843e179dc65a16gid6cea4bba730423e86e2f2eec2e4119766be36ba23361929a973ad7e15dbd530cgid364c61d5f3be1a9956a39df3bdde3323596fa59cfbf25f00745e5c0713fd36e7gid957d340102f7e71633c3815becc5df558e6a6f90c3101f8bfc550ed6a003599a&tw=a5088f92cc7eef32c6590528a372c85e4d2121fc41f41209b727943402d97686'></script><!-- Do not remove this --- Analytics Tracking code ends. --></form>
+  </div> 
 
 
       </div>
