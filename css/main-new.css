@@ -6452,3 +6452,9 @@ hr {
     height: 79px !important;
 }
 .zsiq_theme1.zsiq_floatmain{ display:none !important} 
+.ourlocations h5{ font-weight: 600; color: #0040b3; margin: 0 0 20px;}
+.ourlocations img{ border-radius: 10px 10px 0 0;}
+.ourlocations .card.cursorPointer {border: 0px solid rgba(0, 0, 0, .125);
+    border-radius: 10px;
+    box-shadow: 0 0 30px #ccccccde;}
+    .ourlocations .card-body{ padding: 30px;}
