@@ -6458,3 +6458,43 @@ hr {
     border-radius: 10px;
     box-shadow: 0 0 30px #ccccccde;}
     .ourlocations .card-body{ padding: 30px;}
+.demobanner{margin: 97px 0 0;background-image: url(../images/demobg.jpg);text-align: center;padding: 120px 0;background-size: cover;background-position: center;background-repeat: no-repeat;border: 1px solid #e5e5e58c;border-width: 1px  0;}
+.democntbox{padding: 20px 0;position: relative;border: 1px solid #e7e6e6;width: 670px;margin: auto;}
+.dmiconslt{position: absolute;left: -150px;top: -71px;}
+.dmiconslb{position: absolute;right: -180px;top: -71px;}
+.dmiconsrt{position: absolute;bottom: -100px;left: -150px;}
+.dmiconsrb{position: absolute;bottom: -53px;right: -186px;}
+.democntbox h1{margin: 0 0 10px;font-size: 45px;}
+.democntbox h1 strong{    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, #7928ca, #ff0080);}
+.democntbox .dlist{text-align: left;display: block;padding: 0 0 30px;width: 70%;margin: 0 auto;}
+.democntbox .dlist li{padding: 10px 0 0;display: inline-block;width: 48%;}
+.cnt-cntr{ justify-content: center;}
+ .cntsidebar{ padding:100px 0}   
+ .cntsidebar .hedfour{ text-align: center; font-size: 40px; margin: 0 0 30px; font-weight: 700;}
+.box li{padding: 0 0 15px;display: flex;align-items: center;font-size: 16px;}
+.box li i{color: #fff;background-color: #000;background: linear-gradient(90deg, #7928ca, #ff0080);width: 25px;display: inline-block;height: 25px;line-height: 25px;text-align: center;font-size: 20px;border-radius: 50%;margin-right: 10px;}
+.inbox{background-color: #fff;padding: 30px;margin: 0 0 25px;border-radius: 8px;box-shadow: 0 0 50px #ddd;text-align: center;}
+.demofor{padding: 70px 0 50px;}
+.box ul{padding: 0 0 30px;}
+.box{width: 80%;margin: 0 auto;}
+.fullstackcnt{background-color: #fafafa;padding: 0 0 100px;}
+.inbox h6{margin: 10px 0 10px;font-weight: 600;font-size: 25px;}
+.dlocation{ padding: 40px 0 0;}
+.dmap img{ width: 100%; margin: 0 0 20px;}
+.dfaqs .hedfive{
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 0px;
+    font-weight: 700;
+    }
+    .dfaqs .card-header{ padding: 0;}
+    .dfaqs .card-header a{display: block;background-color: #fff;margin: 0;border: none;text-align: left;padding: 20px 30px;font-size: 20px;font-weight: 400;}
+    .dfaqs .panel{margin: 0 0 20px;border: none;box-shadow: 0 0 20px #ddd9;}
+    .dfaqs .card-header{ padding: 0; border: none;}
+    .dfaqs .card-header a:hover,  .dfaqs .card-header a:focus{ color: #000;}
+    .dfaqs .card-body{ padding: 20px 30px;}
+    .dfaqs .updown_arrow{top: 10px;
+        right: 25px;}
