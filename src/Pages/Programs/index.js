@@ -29,10 +29,12 @@ const Programs = () => {
   const Fundamentals = programsData?.filter((i) => i?.course === name)?.[0];
   const HeaderData = Fundamentals?.courseHeader;
   const Data2 = [
-    "Online & ClassRoom Real-Time training",
-    "Project & Task Based Learning",
-    "24/7 Learning Support with Dedicated Mentors",
-    "Interviews, Jobs, and Placement Support",
+   "Realtime ClassRoom Training",
+      "Project and Task Based",
+      "6 to 8 Hrs Every Day",
+      "Interviews, Jobs and Placement Support",
+      "Communication Skills & Personality Development",
+      "Interview Preparations"
   ];
 
   return (

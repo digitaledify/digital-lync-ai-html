@@ -49,9 +49,8 @@ const Header = () => {
           </div>
 
           <div
-            className={` ${
-              isMobileMenuOpen ? "block px-6 pt-10" : "hidden"
-            } fixed  top-0 left-0 w-full lg:w-auto h-screen lg:h-auto flex flex-col lg:flex-row transition-all bg-white lg:bg-transparent lg:flex gap-3 md:gap-6 lg:items-center relative`}
+            className={` ${isMobileMenuOpen ? "block px-6 pt-10" : "hidden"
+              } fixed  top-0 left-0 w-full lg:w-auto h-screen lg:h-auto flex flex-col lg:flex-row transition-all bg-white lg:bg-transparent lg:flex gap-3 md:gap-6 lg:items-center relative`}
           >
             <div className="content-center ">
               <ul className="flex flex-col lg:flex-row lg:gap-5 ">
@@ -61,11 +60,10 @@ const Header = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <a
-                    className={`font-normal py-7 relative text-sm font-poppins anim-boder uppercase flex gap-2 items-center cursor-pointer ${
-                      isDropdownOpen === 1
+                    className={`font-normal py-7 relative text-sm font-poppins anim-boder uppercase flex gap-2 items-center cursor-pointer ${isDropdownOpen === 1
                         ? "border-0 border-b-[#F06292]"
                         : "border-0"
-                    } `}
+                      } `}
                   >
                     Courses <LuChevronDown size={15} />
                   </a>
@@ -81,7 +79,7 @@ const Header = () => {
                             <li>
                               <p
                                 className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
-                                onClick={() =>{
+                                onClick={() => {
                                   navigate(
                                     "/courses/java-training-certification"
                                   );
@@ -99,25 +97,8 @@ const Header = () => {
                             </li>
                             <li>
                               <p
-                                onClick={() =>{
-                                  navigate("/courses/ui-ux-design-training");
-                                  closeMobileMenu();
-                                }
-                                }
-                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
-                              >
-                                <MdKeyboardDoubleArrowRight
-                                  color="#ca0067"
-                                  className="font-normal"
-                                  size={18}
-                                />
-                                UI/UX Design
-                              </p>
-                            </li>
-                            <li>
-                              <p
-                                onClick={() =>
-                                {  navigate(
+                                onClick={() => {
+                                  navigate(
                                     "/courses/python-training-certification"
                                   );
                                   closeMobileMenu();
@@ -135,8 +116,8 @@ const Header = () => {
                             </li>
                             <li>
                               <p
-                                onClick={() =>
-                                 { navigate(
+                                onClick={() => {
+                                  navigate(
                                     "/courses/react-js-training-certification"
                                   );
                                   closeMobileMenu();
@@ -154,10 +135,8 @@ const Header = () => {
                             </li>
                             <li>
                               <p
-                                onClick={() =>
-                                 { navigate(
-                                    "/courses/full-stack-developer-course"
-                                  );
+                                onClick={() => {
+                                  navigate("/courses/ui-ux-design-training");
                                   closeMobileMenu();
                                 }
                                 }
@@ -168,15 +147,13 @@ const Header = () => {
                                   className="font-normal"
                                   size={18}
                                 />
-                                Full-Stack Developer
+                                UI/UX Design
                               </p>
                             </li>
                             <li>
                               <p
-                                onClick={() =>
-                                 { navigate(
-                                    "/courses/business-analyst-training-certification"
-                                  );
+                                onClick={() => {
+                                  navigate("/courses/fullstack-java-training-certification");
                                   closeMobileMenu();
                                 }
                                 }
@@ -187,16 +164,15 @@ const Header = () => {
                                   className="font-normal"
                                   size={18}
                                 />
-                                Business Analyst
+                                FullStack Java
                               </p>
                             </li>
                             <li>
                               <p
-                                onClick={() =>
-                                 {
-                                 navigate("/courses/software-testing-training");
-                                 closeMobileMenu();
-                                 }
+                                onClick={() => {
+                                  navigate("/courses/fullstack-mern-training-certification");
+                                  closeMobileMenu();
+                                }
                                 }
                                 className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                               >
@@ -205,9 +181,45 @@ const Header = () => {
                                   className="font-normal"
                                   size={18}
                                 />
-                                Software Testing
+                                FullStack MERN
                               </p>
                             </li>
+
+                            <li>
+                              <p
+                                onClick={() => {
+                                  navigate("/courses/fullstack-python-training-certification");
+                                  closeMobileMenu();
+                                }
+                                }
+                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
+                              >
+                                <MdKeyboardDoubleArrowRight
+                                  color="#ca0067"
+                                  className="font-normal"
+                                  size={18}
+                                />
+                                FullStack Python
+                              </p>
+                            </li>
+                            <li>
+                              <p
+                                onClick={() => {
+                                  navigate("/courses/fullstack-ui-ux-design-training");
+                                  closeMobileMenu();
+                                }
+                                }
+                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
+                              >
+                                <MdKeyboardDoubleArrowRight
+                                  color="#ca0067"
+                                  className="font-normal"
+                                  size={18}
+                                />
+                                FullStack UI/UX
+                              </p>
+                            </li>
+                            
                           </ul>
                         </div>
                         {/* Platform Stack */}
@@ -216,9 +228,10 @@ const Header = () => {
                             Platform Stack
                           </h5>
                           <ul className="space-y-2">
+                            
                             <li>
                               <p
-                                onClick={() =>{
+                                onClick={() => {
                                   navigate(
                                     "/courses/devops-training-certification"
                                   );
@@ -237,8 +250,8 @@ const Header = () => {
                             </li>
                             <li>
                               <p
-                                onClick={() =>
-                                {  navigate(
+                                onClick={() => {
+                                  navigate(
                                     "/courses/azure-devops-training-certification"
                                   );
                                   closeMobileMenu();
@@ -254,11 +267,12 @@ const Header = () => {
                                 Azure DevOps
                               </p>
                             </li>
+
                             <li>
                               <p
-                                onClick={() =>
-                                 { navigate(
-                                    "/courses/aws-cloud-training-certification"
+                                onClick={() => {
+                                  navigate(
+                                    "/courses/devops-aws-training-certification"
                                   );
                                   closeMobileMenu();
                                 }
@@ -270,14 +284,15 @@ const Header = () => {
                                   className="font-normal"
                                   size={18}
                                 />
-                                AWS Cloud
+                                DevOps With AWS
                               </p>
                             </li>
-                            <li>
+
+<li>
                               <p
-                                onClick={() =>
-                                 { navigate(
-                                    "/courses/azure-cloud-training-certification"
+                                onClick={() => {
+                                  navigate(
+                                    "/courses/multi-cloud-devops-certification"
                                   );
                                   closeMobileMenu();
                                 }
@@ -289,13 +304,34 @@ const Header = () => {
                                   className="font-normal"
                                   size={18}
                                 />
-                                Azure Cloud
+                              Multi Cloud DevOps
                               </p>
                             </li>
+
                             <li>
                               <p
-                                onClick={() =>
-                                {  navigate(
+                                onClick={() => {
+                                  navigate(
+                                    "/courses/servicenow-training-certification"
+                                  );
+                                  closeMobileMenu();
+                                }
+                                }
+                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
+                              >
+                                <MdKeyboardDoubleArrowRight
+                                  color="#ca0067"
+                                  className="font-normal"
+                                  size={18}
+                                />
+                               ServiceNOW
+                              </p>
+                            </li>
+                           
+                            <li>
+                              <p
+                                onClick={() => {
+                                  navigate(
                                     "/courses/sales-force-training-certification"
                                   );
                                   closeMobileMenu();
@@ -319,123 +355,10 @@ const Header = () => {
                             AI Data Stack
                           </h5>
                           <ul className="space-y-2">
-                            <li>
+                             <li>
                               <p
-                                onClick={() =>
-                                 { navigate(
-                                    "/courses/azure-data-engineering-training-certification"
-                                  );
-                                  closeMobileMenu();
-                                }
-                                }
-                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
-                              >
-                                <MdKeyboardDoubleArrowRight
-                                  color="#ca0067"
-                                  className="font-normal"
-                                  size={18}
-                                />
-                                Azure Data Engineering
-                              </p>
-                            </li>
-                            <li>
-                              <p
-                                onClick={() =>
-                                 { navigate(
-                                    "/courses/aws-data-engineering-training-certification"
-                                  );
-                                  closeMobileMenu();
-                                }
-                                }
-                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
-                              >
-                                <MdKeyboardDoubleArrowRight
-                                  color="#ca0067"
-                                  className="font-normal"
-                                  size={18}
-                                />
-                                AWS Data Engineering
-                              </p>
-                            </li>
-                            <li>
-                              <p
-                                onClick={() =>
-                                 { navigate(
-                                    "/courses/gcp-data-engineering-training-certification"
-                                  );
-                                  closeMobileMenu();
-                                }
-                                }
-                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
-                              >
-                                <MdKeyboardDoubleArrowRight
-                                  color="#ca0067"
-                                  className="font-normal"
-                                  size={18}
-                                />
-                                GCP Data Engineering
-                              </p>
-                            </li>
-                            <li>
-                              <p
-                                onClick={() =>
-                                 { navigate("/courses/ai-training-certification");
-                                  closeMobileMenu();
-                                 }
-                                }
-                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
-                              >
-                                <MdKeyboardDoubleArrowRight
-                                  color="#ca0067"
-                                  className="font-normal"
-                                  size={18}
-                                />
-                                AI Training & Certification
-                              </p>
-                            </li>
-                           
-                            <li>
-                              <p
-                                onClick={() =>
-                                 { navigate(
-                                    "/courses/data-analysis-training-certification"
-                                  );
-                                  closeMobileMenu();
-                                }
-                                }
-                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
-                              >
-                                <MdKeyboardDoubleArrowRight
-                                  color="#ca0067"
-                                  className="font-normal"
-                                  size={18}
-                                />
-                              Data Analysis Training
-                              </p>
-                            </li>
-                            <li>
-                              <p
-                                onClick={() =>
-                                  {navigate(
-                                    "/courses/data-science-training-certification"
-                                  );
-                                  closeMobileMenu();
-                                }
-                                }
-                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
-                              >
-                                <MdKeyboardDoubleArrowRight
-                                  color="#ca0067"
-                                  className="font-normal"
-                                  size={18}
-                                />
-                                Data Science Training
-                              </p>
-                            </li>
-                            <li>
-                              <p
-                                onClick={() =>
-                                 { navigate(
+                                onClick={() => {
+                                  navigate(
                                     "/courses/power-bi-training-certification"
                                   );
                                   closeMobileMenu();
@@ -451,9 +374,143 @@ const Header = () => {
                                 Power BI
                               </p>
                             </li>
+                            <li>
+                              <p
+                                onClick={() => {
+                                  navigate(
+                                    "/courses/data-science-training-certification"
+                                  );
+                                  closeMobileMenu();
+                                }
+                                }
+                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
+                              >
+                                <MdKeyboardDoubleArrowRight
+                                  color="#ca0067"
+                                  className="font-normal"
+                                  size={18}
+                                />
+                               Data Science
+                              </p>
+                            </li>
+                            <li>
+                              <p
+                                onClick={() => {
+                                  navigate(
+                                    "/courses/data-analyst-certification"
+                                  );
+                                  closeMobileMenu();
+                                }
+                                }
+                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
+                              >
+                                <MdKeyboardDoubleArrowRight
+                                  color="#ca0067"
+                                  className="font-normal"
+                                  size={18}
+                                />
+                              Data Analyst
+                              </p>
+                            </li>
+                            <li>
+                              <p
+                                onClick={() => {
+                                  navigate(
+                                    "/courses/data-analysis-training-certification"
+                                  );
+                                  closeMobileMenu();
+                                }
+                                }
+                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
+                              >
+                                <MdKeyboardDoubleArrowRight
+                                  color="#ca0067"
+                                  className="font-normal"
+                                  size={18}
+                                />
+                              Data Analytics
+                              </p>
+                            </li>
+                            <li>
+                              <p
+                                onClick={() => {
+                                  navigate("/courses/business-analyst-training-certification");
+                                  closeMobileMenu();
+                                }
+                                }
+                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
+                              >
+                                <MdKeyboardDoubleArrowRight
+                                  color="#ca0067"
+                                  className="font-normal"
+                                  size={18}
+                                />
+                              Business Analyst
+                              </p>
+                            </li>
+
+                            <li>
+                              <p
+                                onClick={() => {
+                                  navigate(
+                                    "/courses/business-analytics-training-certification"
+                                  );
+                                  closeMobileMenu();
+                                }
+                                }
+                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
+                              >
+                                <MdKeyboardDoubleArrowRight
+                                  color="#ca0067"
+                                  className="font-normal"
+                                  size={18}
+                                />
+                               Business Analytics
+                              </p>
+                            </li>
+                            <li>
+                              <p
+                                onClick={() => {
+                                  navigate(
+                                    "/courses/azure-data-engineering-training-certification"
+                                  );
+                                  closeMobileMenu();
+                                }
+                                }
+                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
+                              >
+                                <MdKeyboardDoubleArrowRight
+                                  color="#ca0067"
+                                  className="font-normal"
+                                  size={18}
+                                />
+                             Azure Data Engineering
+                              </p>
+                            </li>
+                             <li>
+                              <p
+                                onClick={() => {
+                                  navigate(
+                                    "/courses/ai-training-certification"
+                                  );
+                                  closeMobileMenu();
+                                }
+                                }
+                                className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
+                              >
+                                <MdKeyboardDoubleArrowRight
+                                  color="#ca0067"
+                                  className="font-normal"
+                                  size={18}
+                                />
+                           Artificial Intelligence (AI)
+
+                              </p>
+                            </li>
+                           
                           </ul>
                         </div>
-                         
+
                       </div>
                     </div>
                   )}
@@ -464,11 +521,10 @@ const Header = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <a
-                    className={`font-normal text-sm font-poppins uppercase anim-boder flex gap-2 items-center cursor-pointer py-7 ${
-                      isDropdownOpen === 2
+                    className={`font-normal text-sm font-poppins uppercase anim-boder flex gap-2 items-center cursor-pointer py-7 ${isDropdownOpen === 2
                         ? "border-0 border-b-[#F06292]"
                         : "border-0"
-                    }`}
+                      }`}
                   >
                     Programs <LuChevronDown size={15} />
                   </a>
@@ -479,10 +535,10 @@ const Header = () => {
                         <ul className="space-y-2">
                           <li>
                             <p
-                              onClick={() =>
-                                {navigate("/programs/full-stack-java-training");
-                                  closeMobileMenu();
-                                }
+                              onClick={() => {
+                                navigate("/programs/full-ai-stack-training");
+                                closeMobileMenu();
+                              }
                               }
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
@@ -491,14 +547,15 @@ const Header = () => {
                                 className="font-normal"
                                 size={18}
                               />
-                              Full-Stack Java
+                            Full AI Stack
                             </p>
                           </li>
                           <li>
                             <p
-                              onClick={() =>
-                                {navigate("/programs/full-stack-python-training");
-                                  closeMobileMenu();}
+                              onClick={() => {
+                                navigate("/programs/full-stack-with-ai-training");
+                                closeMobileMenu();
+                              }
                               }
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
@@ -507,14 +564,15 @@ const Header = () => {
                                 className="font-normal"
                                 size={18}
                               />
-                              Full-Stack Python
+                            Full Stack With AI
                             </p>
                           </li>
                           <li>
                             <p
-                              onClick={() =>
-                                {navigate("/programs/full-stack-mern-training");
-                                  closeMobileMenu();}
+                              onClick={() => {
+                                navigate("/programs/data-analyst-with-ai-training");
+                                closeMobileMenu();
+                              }
                               }
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
@@ -523,16 +581,17 @@ const Header = () => {
                                 className="font-normal"
                                 size={18}
                               />
-                              Full-Stack MERN
+                             Data Analyst With AI
                             </p>
                           </li>
                           <li>
                             <p
-                              onClick={() =>
-                                {navigate(
-                                  "/programs/full-stack-ai-data-science-training"
+                              onClick={() => {
+                                navigate(
+                                  "/programs/platform-stack-with-ai-training"
                                 );
-                                closeMobileMenu();}
+                                closeMobileMenu();
+                              }
                               }
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
@@ -541,13 +600,13 @@ const Header = () => {
                                 className="font-normal"
                                 size={18}
                               />
-                              Full-Stack AI Data Science
+                              Platform Stack With AI
                             </p>
                           </li>
                           <li>
                             <p
-                              onClick={() =>
-                                {navigate(
+                              onClick={() => {
+                                navigate(
                                   "/programs/multi-cloud-devops-training"
                                 );
                                 closeMobileMenu();
@@ -560,44 +619,10 @@ const Header = () => {
                                 className="font-normal"
                                 size={18}
                               />
-                              Multi-Cloud DevOps
+                             Multi-Cloud DevOps
                             </p>
                           </li>
-                          <li>
-                            <p
-                              onClick={() =>
-                                {navigate(
-                                  "/programs/multi-cloud-data-engineering-training"
-                                );
-                                closeMobileMenu();
-                              }
-                              }
-                              className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
-                            >
-                              <MdKeyboardDoubleArrowRight
-                                color="#ca0067"
-                                className="font-normal"
-                                size={18}
-                              />
-                              Multi-Cloud Data Engineering
-                            </p>
-                          </li>
-                          <li>
-                            <p
-                              onClick={() =>
-                                {navigate("/programs/data-analyst-training");
-                                  closeMobileMenu();}
-                              }
-                              className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
-                            >
-                              <MdKeyboardDoubleArrowRight
-                                color="#ca0067"
-                                className="font-normal"
-                                size={18}
-                              />
-                              AI Data Analyst
-                            </p>
-                          </li>
+                           
                         </ul>
                       </div>
                     </div>
@@ -609,11 +634,10 @@ const Header = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <a
-                    className={`font-normal text-sm font-poppins uppercase anim-boder flex gap-2 items-center cursor-pointer py-7 ${
-                      isDropdownOpen === 3
+                    className={`font-normal text-sm font-poppins uppercase anim-boder flex gap-2 items-center cursor-pointer py-7 ${isDropdownOpen === 3
                         ? "border-0 border-b-[#F06292]"
                         : "border-0"
-                    }`}
+                      }`}
                   >
                     Services <LuChevronDown size={15} />
                   </a>
@@ -624,9 +648,10 @@ const Header = () => {
                         <ul className="space-y-2">
                           <li>
                             <p
-                              onClick={() =>
-                                {navigate("/services/class-training");
-                                  closeMobileMenu();}
+                              onClick={() => {
+                                navigate("/services/class-training");
+                                closeMobileMenu();
+                              }
                               }
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
@@ -640,9 +665,10 @@ const Header = () => {
                           </li>
                           <li>
                             <p
-                              onClick={() =>
-                                {navigate("/services/online-training");
-                                  closeMobileMenu();}
+                              onClick={() => {
+                                navigate("/services/online-training");
+                                closeMobileMenu();
+                              }
                               }
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
@@ -656,9 +682,10 @@ const Header = () => {
                           </li>
                           <li>
                             <p
-                              onClick={() =>
-                                {navigate("/services/weekend-training");
-                                  closeMobileMenu();}
+                              onClick={() => {
+                                navigate("/services/weekend-training");
+                                closeMobileMenu();
+                              }
                               }
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
@@ -672,9 +699,10 @@ const Header = () => {
                           </li>
                           <li>
                             <p
-                              onClick={() =>
-                                {navigate("/services/corporate-training");
-                                  closeMobileMenu();}
+                              onClick={() => {
+                                navigate("/services/corporate-training");
+                                closeMobileMenu();
+                              }
                               }
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
@@ -688,9 +716,10 @@ const Header = () => {
                           </li>
                           <li>
                             <p
-                              onClick={() =>
-                                {navigate("/services/one-to-one-training");
-                                  closeMobileMenu();}
+                              onClick={() => {
+                                navigate("/services/one-to-one-training");
+                                closeMobileMenu();
+                              }
                               }
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
@@ -713,11 +742,10 @@ const Header = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <p
-                    className={`font-normal text-sm font-poppins text-sm anim-boder uppercase flex gap-2 items-center cursor-pointer py-7 ${
-                      isDropdownOpen === 4
+                    className={`font-normal text-sm font-poppins text-sm anim-boder uppercase flex gap-2 items-center cursor-pointer py-7 ${isDropdownOpen === 4
                         ? "border-0 border-b-[#F06292]"
                         : "border-0"
-                    }`}
+                      }`}
                   >
                     Resources <LuChevronDown size={15} />
                   </p>
@@ -728,7 +756,7 @@ const Header = () => {
                         <ul className="space-y-2">
                           <li>
                             <p
-                              onClick={() => {navigate("/blogs/edify-blogs");closeMobileMenu();}}
+                              onClick={() => { navigate("/blogs/edify-blogs"); closeMobileMenu(); }}
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
                               <MdKeyboardDoubleArrowRight
@@ -741,7 +769,7 @@ const Header = () => {
                           </li>
                           <li>
                             <p
-                              onClick={() => {navigate("/demos/edify-demos");closeMobileMenu();}}
+                              onClick={() => { navigate("/demos/edify-demos"); closeMobileMenu(); }}
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
                               <MdKeyboardDoubleArrowRight
@@ -763,11 +791,10 @@ const Header = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   <p
-                    className={`font-normal text-sm font-poppins anim-boder uppercase flex gap-2 items-center cursor-pointer py-7 ${
-                      isDropdownOpen === 5
+                    className={`font-normal text-sm font-poppins anim-boder uppercase flex gap-2 items-center cursor-pointer py-7 ${isDropdownOpen === 5
                         ? "border-0 border-b-[#F06292]"
                         : "border-0"
-                    }`}
+                      }`}
                   >
                     Company <LuChevronDown size={15} />
                   </p>
@@ -778,7 +805,7 @@ const Header = () => {
                         <ul className="space-y-2">
                           <li>
                             <p
-                              onClick={() => {navigate("/company/about-us");closeMobileMenu();}}
+                              onClick={() => { navigate("/company/about-us"); closeMobileMenu(); }}
                               className="flex items-center text-sm text-gray-600 cursor-pointer hover:text-blue-500 hover:gap-2"
                             >
                               <MdKeyboardDoubleArrowRight
