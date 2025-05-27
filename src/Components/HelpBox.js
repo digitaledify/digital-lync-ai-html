@@ -25,7 +25,7 @@ const HelpBox = () => {
       {/* Floating Button */}
       <button
         onClick={toggleBox}
-        className="flex items-center justify-center rounded-tl-[34px] pt-[7px] pb-2.5 px-2.5 rounded-br-[34px] rounded-tr-[34px] rounded-bl-[8px] w-[60px] h-[60px] transition duration-300 bg-blue-600 shadow-lg hover:bg-blue-700"
+        className="flex items-center justify-center rounded-tl-[34px] pt-[7px] pb-2.5 px-2.5 rounded-br-[34px] rounded-tr-[34px] rounded-bl-[8px] w-[60px] h-[60px] transition duration-300 bg-[#5301c7] shadow-lg hover:bg-blue-700"
       >
         {isOpen ? (
           <IoClose className="text-white" size={40} />

@@ -836,7 +836,7 @@ const Header = () => {
                 Login
               </button>
               <button
-                className="text-white font-poppins text-[15px] xl:text-base bg-[#015DBE] py-2 px-6 rounded-3xl  hover:bg-pink-700"
+                className="text-white font-poppins text-[15px] xl:text-base bg-[#5301c7] py-2 px-6 rounded-3xl  hover:bg-pink-700"
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Start Now
