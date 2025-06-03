@@ -75,7 +75,7 @@ const StartNowModal = ({ isOpen, setIsOpen }) => {
           // "https://api.qa.crm.digitaledify.ai/api/v1/leads",
           `${
             process.env.REACT_APP_API ||
-            "https://api.dev.crm.digitaledify.ai/api/v1/leads"
+            "https://api.dev.crm.digital-lync.com/api/v1/leads"
           }`,
           {
             method: "POST",
