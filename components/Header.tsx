@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import digitaledify from "../public/assets/digitaledify.png";
+import digitalync from "../public/assets/logo-digital-lync.webp";
 import { FaBars } from "react-icons/fa6";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { FaTimes } from "react-icons/fa";
@@ -35,11 +35,11 @@ const Header = () => {
                     <div>
                         <Image
                             onClick={() => route.push("/")}
-                            src={digitaledify}
+                            src={digitalync}
                             alt="Digital Edify - Best AWS"
                             title="Digital Edify - Best AWS"
                             priority
-                            className="cursor-pointer h-14"
+                            className="cursor-pointer"
                         />
                     </div>
                     {/* Mobile Menu Icon */}
